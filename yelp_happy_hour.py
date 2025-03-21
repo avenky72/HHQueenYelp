@@ -11,15 +11,15 @@ def search_businesses(api_key, latitude, longitude, radius_miles=25, term="happy
         api_key (str): Your Yelp Fusion API key
         latitude (float): Latitude of the center point
         longitude (float): Longitude of the center point
-        radius_miles (int): Search radius in miles (max 25 miles for Yelp API)
+        radius_miles (int): Search radius in miles (max 24.85 miles for Yelp API)
         term (str): Search term, e.g., "happy hour"
         limit (int): Number of results per request (max 50 for Yelp API)
         
     Returns:
         list: List of businesses matching the search criteria
     """
-    # Convert miles to meters for the Yelp API
-    radius_meters = int(radius_miles * 1609.34)
+    # Convert miles to meters for the Yelp API, capping at 40000 meters
+    radius_meters = min(int(radius_miles * 1609.34), 40000)
     
     # Yelp API endpoint
     url = "https://api.yelp.com/v3/businesses/search"
@@ -130,7 +130,7 @@ def main():
     parser.add_argument("--api-key", required=True, help="Yelp Fusion API key")
     parser.add_argument("--latitude", required=True, type=float, help="Latitude of the center point")
     parser.add_argument("--longitude", required=True, type=float, help="Longitude of the center point")
-    parser.add_argument("--radius", type=int, default=25, help="Search radius in miles (max 25)")
+    parser.add_argument("--radius", type=int, default=24, help="Search radius in miles (max 24.85)")
     parser.add_argument("--term", default="happy hour", help="Search term")
     parser.add_argument("--output", help="Output filename")
     

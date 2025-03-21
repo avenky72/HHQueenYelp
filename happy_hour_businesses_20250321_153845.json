@@ -1,0 +1,3908 @@
+[
+    {
+        "name": "Gulp",
+        "rating": 3.8,
+        "review_count": 311,
+        "address": "13020 Pacific Promenade, Ste 1, Los Angeles, CA 90094",
+        "city": "Los Angeles",
+        "zip_code": "90094",
+        "phone": "+13104963966",
+        "website": "https://www.yelp.com/biz/gulp-los-angeles-5?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.972623121843,
+            "longitude": -118.423509187836
+        },
+        "categories": [
+            "New American",
+            "Burgers",
+            "Sports Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Bacari PDR",
+        "rating": 4.6,
+        "review_count": 2364,
+        "address": "6805 Vista Del Mar Ln, Playa Del Rey, CA 90293",
+        "city": "Playa Del Rey",
+        "zip_code": "90293",
+        "phone": "+13239866763",
+        "website": "https://www.yelp.com/biz/bacari-pdr-playa-del-rey-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.958639,
+            "longitude": -118.448384
+        },
+        "categories": [
+            "New American",
+            "Wine Bars",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "N17 The Lane",
+        "rating": 4.8,
+        "review_count": 184,
+        "address": "12821 W Washington Blvd, Ste 103, Los Angeles, CA 90066",
+        "city": "Los Angeles",
+        "zip_code": "90066",
+        "phone": "+13105697358",
+        "website": "https://www.yelp.com/biz/n17-the-lane-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.99594083067101,
+            "longitude": -118.437432441104
+        },
+        "categories": [
+            "Gastropubs",
+            "Comfort Food",
+            "Sports Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "The Lounge",
+        "rating": 4.5,
+        "review_count": 20,
+        "address": "3865 Cardiff Ave, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+13102041222",
+        "website": "https://www.yelp.com/biz/the-lounge-culver-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.023595,
+            "longitude": -118.395171
+        },
+        "categories": [
+            "Cocktail Bars",
+            "Lounges"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "33 Taps -  Culver City",
+        "rating": 4.2,
+        "review_count": 206,
+        "address": "9739 Culver Blvd, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+13108389739",
+        "website": "https://www.yelp.com/biz/33-taps-culver-city-culver-city-6?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.021909,
+            "longitude": -118.39656
+        },
+        "categories": [
+            "Sports Bars",
+            "Burgers",
+            "Vegan"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Zinqu\u00e9",
+        "rating": 3.8,
+        "review_count": 124,
+        "address": "23841 Malibu Rd, Spc\u00a021, Malibu, CA 90265",
+        "city": "Malibu",
+        "zip_code": "90265",
+        "phone": "+14246440730",
+        "website": "https://www.yelp.com/biz/zinqu%C3%A9-malibu?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.03399355569049,
+            "longitude": -118.69233967055224
+        },
+        "categories": [
+            "French",
+            "Breakfast & Brunch",
+            "Cocktail Bars"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "SOL Mexican Cocina",
+        "rating": 4.2,
+        "review_count": 2891,
+        "address": "12775 Millennium Dr, Unit 160, Playa Vista, CA 90094",
+        "city": "Playa Vista",
+        "zip_code": "90094",
+        "phone": "+14242890066",
+        "website": "https://www.yelp.com/biz/sol-mexican-cocina-playa-vista-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.97604309232573,
+            "longitude": -118.41684701580708
+        },
+        "categories": [
+            "Bars",
+            "Mexican",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Piccalilli",
+        "rating": 4.3,
+        "review_count": 441,
+        "address": "3850 Main St, Ste A, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+14242988540",
+        "website": "https://www.yelp.com/biz/piccalilli-culver-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.02461602124082,
+            "longitude": -118.39422091717928
+        },
+        "categories": [
+            "Asian Fusion",
+            "New American",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Simonette",
+        "rating": 4.1,
+        "review_count": 575,
+        "address": "3927 Van Buren Pl, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+14243218000",
+        "website": "https://www.yelp.com/biz/simonette-culver-city-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0229299260707,
+            "longitude": -118.393480069935
+        },
+        "categories": [
+            "French",
+            "Cafes",
+            "Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Bar Bohemien",
+        "rating": 4.2,
+        "review_count": 176,
+        "address": "9355 Culver Blvd, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+13107306610",
+        "website": "https://www.yelp.com/biz/bar-bohemien-culver-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0251,
+            "longitude": -118.39413
+        },
+        "categories": [
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Hudson House",
+        "rating": 4.1,
+        "review_count": 119,
+        "address": "9255 Sunset Blvd, Ste 100, Los Angeles, CA 90069",
+        "city": "Los Angeles",
+        "zip_code": "90069",
+        "phone": "+12134411355",
+        "website": "https://www.yelp.com/biz/hudson-house-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.090197,
+            "longitude": -118.393824
+        },
+        "categories": [
+            "New American",
+            "Venues & Event Spaces",
+            "Sandwiches"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "The Auld Fella",
+        "rating": 4.2,
+        "review_count": 346,
+        "address": "9375 Culver Blvd, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+14243615100",
+        "website": "https://www.yelp.com/biz/the-auld-fella-culver-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0246794496627,
+            "longitude": -118.394122794271
+        },
+        "categories": [
+            "Irish Pub"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Superfine Pizza & Bar",
+        "rating": 3.9,
+        "review_count": 146,
+        "address": "12746 Jefferson Blvd, Ste 2200, Playa Vista, CA 90094",
+        "city": "Playa Vista",
+        "zip_code": "90094",
+        "phone": "+16266280218",
+        "website": "https://www.yelp.com/biz/superfine-pizza-and-bar-playa-vista?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.97672009136119,
+            "longitude": -118.41710755558324
+        },
+        "categories": [
+            "Pizza",
+            "Breakfast & Brunch",
+            "Cocktail Bars"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Father's Office",
+        "rating": 3.6,
+        "review_count": 6471,
+        "address": "3229 Helms Ave, Los Angeles, CA 90034",
+        "city": "Los Angeles",
+        "zip_code": "90034",
+        "phone": "",
+        "website": "https://www.yelp.com/biz/fathers-office-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0304642240788,
+            "longitude": -118.384695173189
+        },
+        "categories": [
+            "Burgers",
+            "Cocktail Bars",
+            "Sandwiches"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "The Manchester",
+        "rating": 4.5,
+        "review_count": 303,
+        "address": "8522 Lincoln Blvd, Los Angeles, CA 90045",
+        "city": "Los Angeles",
+        "zip_code": "90045",
+        "phone": "+14245417097",
+        "website": "https://www.yelp.com/biz/the-manchester-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.959998,
+            "longitude": -118.419237
+        },
+        "categories": [
+            "Cocktail Bars",
+            "New American"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Sara The Wine Bar",
+        "rating": 4.5,
+        "review_count": 594,
+        "address": "3936 Sepulveda Blvd, Culver City, CA 90230",
+        "city": "Culver City",
+        "zip_code": "90230",
+        "phone": "+12133127788",
+        "website": "https://www.yelp.com/biz/sara-the-wine-bar-culver-city-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0103632,
+            "longitude": -118.4148508
+        },
+        "categories": [
+            "Wine Bars",
+            "Italian"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Beverly Bar",
+        "rating": 4.6,
+        "review_count": 213,
+        "address": "434 N Camden Dr, Beverly Hills, CA 90210",
+        "city": "Beverly Hills",
+        "zip_code": "90210",
+        "phone": "+13104641532",
+        "website": "https://www.yelp.com/biz/beverly-bar-beverly-hills?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.06939104279243,
+            "longitude": -118.40464891195678
+        },
+        "categories": [
+            "Wine Bars",
+            "Burgers",
+            "Beer Bar"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Kalaveras",
+        "rating": 3.8,
+        "review_count": 576,
+        "address": "13181 Mindanao Way, Marina del Rey, CA 90292",
+        "city": "Marina del Rey",
+        "zip_code": "90292",
+        "phone": "+13104370062",
+        "website": "https://www.yelp.com/biz/kalaveras-marina-del-rey?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.984277,
+            "longitude": -118.438029
+        },
+        "categories": [
+            "Breakfast & Brunch",
+            "Mexican",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Belles Beach House",
+        "rating": 4.2,
+        "review_count": 1243,
+        "address": "24 Windward Ave, Venice, CA 90291",
+        "city": "Venice",
+        "zip_code": "90291",
+        "phone": "+14243636600",
+        "website": "https://www.yelp.com/biz/belles-beach-house-venice?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.98698606118544,
+            "longitude": -118.4730977
+        },
+        "categories": [
+            "Tiki Bars",
+            "Izakaya",
+            "American"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Chelsea",
+        "rating": 4.7,
+        "review_count": 106,
+        "address": "2460 Wilshire Blvd, Santa Monica, CA 90403",
+        "city": "Santa Monica",
+        "zip_code": "90403",
+        "phone": "+14242385102",
+        "website": "https://www.yelp.com/biz/chelsea-santa-monica?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.035103,
+            "longitude": -118.478213
+        },
+        "categories": [
+            "New American",
+            "Cocktail Bars"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Stanley's Wet Goods",
+        "rating": 4.4,
+        "review_count": 160,
+        "address": "9620 Venice Blvd, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+14243412870",
+        "website": "https://www.yelp.com/biz/stanleys-wet-goods-culver-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.02441,
+            "longitude": -118.39618
+        },
+        "categories": [
+            "Wine Bars",
+            "Beer, Wine & Spirits",
+            "Coffee & Tea"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Huddy's",
+        "rating": 4.0,
+        "review_count": 1192,
+        "address": "514 N Pacific Coast Hwy, Redondo Beach, CA 90277",
+        "city": "Redondo Beach",
+        "zip_code": "90277",
+        "phone": "+13233104005",
+        "website": "https://www.yelp.com/biz/huddys-redondo-beach-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.85032,
+            "longitude": -118.38864
+        },
+        "categories": [
+            "Gastropubs",
+            "New American",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Citizen Public Market",
+        "rating": 4.3,
+        "review_count": 171,
+        "address": "9355 Culver Blvd, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "",
+        "website": "https://www.yelp.com/biz/citizen-public-market-culver-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.025087,
+            "longitude": -118.394109
+        },
+        "categories": [
+            "Food Court"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Carasau",
+        "rating": 4.4,
+        "review_count": 637,
+        "address": "3918 Van Buren Pl, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+13108760058",
+        "website": "https://www.yelp.com/biz/carasau-culver-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.023496,
+            "longitude": -118.393472
+        },
+        "categories": [
+            "Sardinian"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Local Kitchen",
+        "rating": 4.4,
+        "review_count": 1372,
+        "address": "1321 Sartori Ave, Torrance, CA 90501",
+        "city": "Torrance",
+        "zip_code": "90501",
+        "phone": "+14243371321",
+        "website": "https://www.yelp.com/biz/local-kitchen-torrance-3?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.83433,
+            "longitude": -118.31539
+        },
+        "categories": [
+            "American",
+            "Gastropubs"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "JOEY Manhattan Beach",
+        "rating": 4.4,
+        "review_count": 2581,
+        "address": "3120 North Sepulveda Blvd, Manhattan Beach, CA 90266",
+        "city": "Manhattan Beach",
+        "zip_code": "90266",
+        "phone": "+13105461163",
+        "website": "https://www.yelp.com/biz/joey-manhattan-beach-manhattan-beach?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.8988291,
+            "longitude": -118.3951783
+        },
+        "categories": [
+            "New American",
+            "Lounges",
+            "Steakhouses"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Bodega Wine Bar",
+        "rating": 4.1,
+        "review_count": 1219,
+        "address": "814 Broadway, Santa Monica, CA 90401",
+        "city": "Santa Monica",
+        "zip_code": "90401",
+        "phone": "+13103943504",
+        "website": "https://www.yelp.com/biz/bodega-wine-bar-santa-monica?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0184534,
+            "longitude": -118.4892482
+        },
+        "categories": [
+            "Wine Bars",
+            "Coffee & Tea",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "The End ",
+        "rating": 4.3,
+        "review_count": 197,
+        "address": "4525 Calle Mayor, Torrance, CA 90505",
+        "city": "Torrance",
+        "zip_code": "90505",
+        "phone": "+14242372037",
+        "website": "https://www.yelp.com/biz/the-end-torrance-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.81738199999999,
+            "longitude": -118.36134423599844
+        },
+        "categories": [
+            "New American",
+            "Beer Bar",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Paradise Cove Beach Cafe",
+        "rating": 3.0,
+        "review_count": 4031,
+        "address": "28128 Pacific Coast Hwy, Malibu, CA 90265",
+        "city": "Malibu",
+        "zip_code": "90265",
+        "phone": "+13104572503",
+        "website": "https://www.yelp.com/biz/paradise-cove-beach-cafe-malibu-7?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.02133,
+            "longitude": -118.78761
+        },
+        "categories": [
+            "American",
+            "Cocktail Bars",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Settecento",
+        "rating": 4.6,
+        "review_count": 231,
+        "address": "700 W 5th St, Los Angeles, CA 90071",
+        "city": "Los Angeles",
+        "zip_code": "90071",
+        "phone": "+12137577765",
+        "website": "https://www.yelp.com/biz/settecento-los-angeles-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.051050995888055,
+            "longitude": -118.2557575
+        },
+        "categories": [
+            "Italian",
+            "Cocktail Bars",
+            "Pizza"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Tu Madre- Santa Monica",
+        "rating": 4.3,
+        "review_count": 741,
+        "address": "606 Broadway, Ste 100, Santa Monica, CA 90401",
+        "city": "Santa Monica",
+        "zip_code": "90401",
+        "phone": "+14243532060",
+        "website": "https://www.yelp.com/biz/tu-madre-santa-monica-santa-monica?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.01662575666819,
+            "longitude": -118.49145021529372
+        },
+        "categories": [
+            "Tacos",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Everson Royce Bar",
+        "rating": 4.3,
+        "review_count": 1030,
+        "address": "1936 E 7th St, Los Angeles, CA 90021",
+        "city": "Los Angeles",
+        "zip_code": "90021",
+        "phone": "+12133356166",
+        "website": "https://www.yelp.com/biz/everson-royce-bar-los-angeles-3?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.03439,
+            "longitude": -118.232589
+        },
+        "categories": [
+            "Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "SAUSAL",
+        "rating": 4.3,
+        "review_count": 1085,
+        "address": "219 Main St, El Segundo, CA 90245",
+        "city": "El Segundo",
+        "zip_code": "90245",
+        "phone": "+13103222721",
+        "website": "https://www.yelp.com/biz/sausal-el-segundo?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.9181534,
+            "longitude": -118.4160949
+        },
+        "categories": [
+            "Mexican"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Library Bar",
+        "rating": 3.9,
+        "review_count": 1900,
+        "address": "630 W 6th St, Ste 116-A, Los Angeles, CA 90017",
+        "city": "Los Angeles",
+        "zip_code": "90017",
+        "phone": "",
+        "website": "https://www.yelp.com/biz/library-bar-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.04914,
+            "longitude": -118.25646
+        },
+        "categories": [
+            "New American",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Brewport Tap House",
+        "rating": 4.3,
+        "review_count": 489,
+        "address": "204 Main St, El Segundo, CA 90245",
+        "city": "El Segundo",
+        "zip_code": "90245",
+        "phone": "+13106488972",
+        "website": "https://www.yelp.com/biz/brewport-tap-house-el-segundo?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.9181418,
+            "longitude": -118.4158251
+        },
+        "categories": [
+            "Bars",
+            "Brewpubs",
+            "Salad"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Cinco",
+        "rating": 3.8,
+        "review_count": 755,
+        "address": "7241 W Manchester Ave, Los Angeles, CA 90045",
+        "city": "Los Angeles",
+        "zip_code": "90045",
+        "phone": "+13109100895",
+        "website": "https://www.yelp.com/biz/cinco-los-angeles-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.960296,
+            "longitude": -118.42056
+        },
+        "categories": [
+            "Mexican",
+            "Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "The Brixton",
+        "rating": 4.3,
+        "review_count": 1241,
+        "address": "2827 Pico Blvd, Santa Monica, CA 90405",
+        "city": "Santa Monica",
+        "zip_code": "90405",
+        "phone": "+13104494567",
+        "website": "https://www.yelp.com/biz/the-brixton-santa-monica?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.02483,
+            "longitude": -118.459906
+        },
+        "categories": [
+            "Gastropubs",
+            "New American",
+            "Lounges"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Sol Agave",
+        "rating": 4.5,
+        "review_count": 731,
+        "address": "1733 Ocean Ave, Ste 130, Santa Monica, CA 90401",
+        "city": "Santa Monica",
+        "zip_code": "90401",
+        "phone": "+14242388076",
+        "website": "https://www.yelp.com/biz/sol-agave-santa-monica-3?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.00923,
+            "longitude": -118.49173
+        },
+        "categories": [
+            "New Mexican Cuisine",
+            "Seafood",
+            "Mexican"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "neat",
+        "rating": 4.2,
+        "review_count": 243,
+        "address": "11780 W Pico Blvd, Los Angeles, CA 90064",
+        "city": "Los Angeles",
+        "zip_code": "90064",
+        "phone": "+13108817081",
+        "website": "https://www.yelp.com/biz/neat-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0305786132812,
+            "longitude": -118.447105407715
+        },
+        "categories": [
+            "Cocktail Bars",
+            "Wine Bars",
+            "Beer Bar"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Tiny's Hi-Dive",
+        "rating": 4.7,
+        "review_count": 153,
+        "address": "12012 W Pico Blvd, Los Angeles, CA 90064",
+        "city": "Los Angeles",
+        "zip_code": "90064",
+        "phone": "+14248881388",
+        "website": "https://www.yelp.com/biz/tinys-hi-dive-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.02954547360724,
+            "longitude": -118.4494128
+        },
+        "categories": [
+            "Dive Bars"
+        ],
+        "price": "$"
+    },
+    {
+        "name": "brewco social",
+        "rating": 4.2,
+        "review_count": 44,
+        "address": "124 Manhattan Beach Blvd, Manhattan Beach, CA 90266",
+        "city": "Manhattan Beach",
+        "zip_code": "90266",
+        "phone": "+13107982744",
+        "website": "https://www.yelp.com/biz/brewco-social-manhattan-beach?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.884394,
+            "longitude": -118.411029
+        },
+        "categories": [
+            "New American"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Good Clean Fun",
+        "rating": 4.7,
+        "review_count": 184,
+        "address": "868 S Olive St, Los Angeles, CA 90015",
+        "city": "Los Angeles",
+        "zip_code": "90015",
+        "phone": "+12134930098",
+        "website": "https://www.yelp.com/biz/good-clean-fun-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0438777,
+            "longitude": -118.2578333
+        },
+        "categories": [
+            "Wine Bars",
+            "Beer, Wine & Spirits",
+            "Italian"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Fifty One",
+        "rating": 3.8,
+        "review_count": 687,
+        "address": "9540 Washington Blvd, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+13105595966",
+        "website": "https://www.yelp.com/biz/fifty-one-culver-city-4?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.023036,
+            "longitude": -118.394555
+        },
+        "categories": [
+            "Chinese",
+            "Asian Fusion"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Eureka!",
+        "rating": 4.1,
+        "review_count": 1202,
+        "address": "12101 S Crenshaw Blvd, Hawthorne, CA 90250",
+        "city": "Hawthorne",
+        "zip_code": "90250",
+        "phone": "+13103318233",
+        "website": "https://www.yelp.com/biz/eureka-hawthorne-4?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.92227301447286,
+            "longitude": -118.3272922039032
+        },
+        "categories": [
+            "American"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Hermanito",
+        "rating": 4.3,
+        "review_count": 771,
+        "address": "2024 Sawtelle Blvd, Los Angeles, CA 90025",
+        "city": "Los Angeles",
+        "zip_code": "90025",
+        "phone": "+14243882585",
+        "website": "https://www.yelp.com/biz/hermanito-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.04042,
+            "longitude": -118.44297
+        },
+        "categories": [
+            "Mexican",
+            "Cocktail Bars",
+            "Whiskey Bars"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Prank",
+        "rating": 4.1,
+        "review_count": 1067,
+        "address": "1100 S Hope St, Los Angeles, CA 90015",
+        "city": "Los Angeles",
+        "zip_code": "90015",
+        "phone": "+13107309757",
+        "website": "https://www.yelp.com/biz/prank-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.042005,
+            "longitude": -118.263016
+        },
+        "categories": [
+            "Cocktail Bars",
+            "American",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Arth Bar & Kitchen",
+        "rating": 4.3,
+        "review_count": 364,
+        "address": "9531 Culver Blvd, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+14246034155",
+        "website": "https://www.yelp.com/biz/arth-bar-and-kitchen-culver-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.023220025762654,
+            "longitude": -118.3953562079707
+        },
+        "categories": [
+            "Asian Fusion",
+            "Indian",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Madre Oaxacan Restaurant and Mezcaleria",
+        "rating": 4.0,
+        "review_count": 1352,
+        "address": "10426 National Blvd, Los Angeles, CA 90034",
+        "city": "Los Angeles",
+        "zip_code": "90034",
+        "phone": "+13105594732",
+        "website": "https://www.yelp.com/biz/madre-oaxacan-restaurant-and-mezcaleria-los-angeles-6?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.028711,
+            "longitude": -118.411288
+        },
+        "categories": [
+            "Mexican",
+            "Cocktail Bars",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Simmzy's - Manhattan Beach",
+        "rating": 4.1,
+        "review_count": 1527,
+        "address": "229 Manhattan Beach Blvd, Manhattan Beach, CA 90266",
+        "city": "Manhattan Beach",
+        "zip_code": "90266",
+        "phone": "+13105461201",
+        "website": "https://www.yelp.com/biz/simmzys-manhattan-beach-manhattan-beach-4?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.8851996,
+            "longitude": -118.4100389
+        },
+        "categories": [
+            "American",
+            "Gastropubs"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Nalu Vida Venice",
+        "rating": 4.4,
+        "review_count": 89,
+        "address": "1 Washington Blvd, Venice, CA 90292",
+        "city": "Venice",
+        "zip_code": "90292",
+        "phone": "+13104370060",
+        "website": "https://www.yelp.com/biz/nalu-vida-venice-venice?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.9793057,
+            "longitude": -118.4668521
+        },
+        "categories": [
+            "Bars"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "The Rosegold Saloon",
+        "rating": 4.8,
+        "review_count": 136,
+        "address": "11501 W Pico Blvd, Los Angeles, CA 90064",
+        "city": "Los Angeles",
+        "zip_code": "90064",
+        "phone": "+13104780152",
+        "website": "https://www.yelp.com/biz/the-rosegold-saloon-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.03337,
+            "longitude": -118.44271
+        },
+        "categories": [
+            "Cocktail Bars",
+            "Lounges",
+            "American"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "The Honor Bar",
+        "rating": 4.3,
+        "review_count": 1989,
+        "address": "122 S Beverly Dr, Beverly Hills, CA 90212",
+        "city": "Beverly Hills",
+        "zip_code": "90212",
+        "phone": "+13105500292",
+        "website": "https://www.yelp.com/biz/the-honor-bar-beverly-hills-3?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.06617,
+            "longitude": -118.39872
+        },
+        "categories": [
+            "Burgers",
+            "New American",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "AFURI",
+        "rating": 4.3,
+        "review_count": 265,
+        "address": "9300 Culver Blvd, Unit 117, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+14242988292",
+        "website": "https://www.yelp.com/biz/afuri-culver-city-7?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.024357329741484,
+            "longitude": -118.39348349946758
+        },
+        "categories": [
+            "Ramen",
+            "Cocktail Bars",
+            "Sushi Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Madre",
+        "rating": 3.8,
+        "review_count": 1790,
+        "address": "1261 Cabrillo Ave, Ste 100, Torrance, CA 90501",
+        "city": "Torrance",
+        "zip_code": "90501",
+        "phone": "+13109748005",
+        "website": "https://www.yelp.com/biz/madre-torrance?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.8353545,
+            "longitude": -118.3146145
+        },
+        "categories": [
+            "Mexican",
+            "Cocktail Bars",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Joliet Restaurant and Bar",
+        "rating": 4.2,
+        "review_count": 139,
+        "address": "12751 Millennium Dr, 5 -165, Playa Vista, CA 90094",
+        "city": "Playa Vista",
+        "zip_code": "90094",
+        "phone": "+12132862675",
+        "website": "https://www.yelp.com/biz/joliet-restaurant-and-bar-playa-vista?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.97650109740625,
+            "longitude": -118.41587871785414
+        },
+        "categories": [
+            "Cafes",
+            "Breakfast & Brunch",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Flora Rooftop Bar",
+        "rating": 3.8,
+        "review_count": 194,
+        "address": "2130 E Maple Ave, El Segundo, CA 90245",
+        "city": "El Segundo",
+        "zip_code": "90245",
+        "phone": "+13103223333",
+        "website": "https://www.yelp.com/biz/flora-rooftop-bar-el-segundo?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.926571,
+            "longitude": -118.386622
+        },
+        "categories": [
+            "Lounges",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Beach & Brew",
+        "rating": 3.9,
+        "review_count": 159,
+        "address": "405 Washington Blvd, Venice, CA 90292",
+        "city": "Venice",
+        "zip_code": "90292",
+        "phone": "+13108819172",
+        "website": "https://www.yelp.com/biz/beach-and-brew-venice?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.98127,
+            "longitude": -118.46345
+        },
+        "categories": [
+            "Bars",
+            "New American",
+            "Beer, Wine & Spirits"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Accomplice Bar",
+        "rating": 4.3,
+        "review_count": 180,
+        "address": "3811 Grand View Blvd, Los Angeles, CA 90066",
+        "city": "Los Angeles",
+        "zip_code": "90066",
+        "phone": "+13103619496",
+        "website": "https://www.yelp.com/biz/accomplice-bar-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0044153,
+            "longitude": -118.4310809
+        },
+        "categories": [
+            "Cocktail Bars",
+            "Lounges"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Roberta's",
+        "rating": 3.7,
+        "review_count": 895,
+        "address": "8810 Washington Blvd, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+17184171118",
+        "website": "https://www.yelp.com/biz/robertas-culver-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.027485,
+            "longitude": -118.387197
+        },
+        "categories": [
+            "Pizza"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Jameson's Pub Culver City",
+        "rating": 3.3,
+        "review_count": 166,
+        "address": "9546 Washington Blvd, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+13108379546",
+        "website": "https://www.yelp.com/biz/jamesons-pub-culver-city-culver-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.023045524676185,
+            "longitude": -118.39480508118868
+        },
+        "categories": [
+            "Burgers",
+            "Irish Pub",
+            "Sports Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Fig Tree Venice",
+        "rating": 4.0,
+        "review_count": 693,
+        "address": "429 Ocean Front Walk, Los Angeles, CA 90291",
+        "city": "Los Angeles",
+        "zip_code": "90291",
+        "phone": "+13103924937",
+        "website": "https://www.yelp.com/biz/fig-tree-venice-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.99351405458125,
+            "longitude": -118.4790622987976
+        },
+        "categories": [
+            "Cafes",
+            "American",
+            "Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Potions & Poisons",
+        "rating": 4.7,
+        "review_count": 351,
+        "address": "3514 W 8th St, Los Angeles, CA 90005",
+        "city": "Los Angeles",
+        "zip_code": "90005",
+        "phone": "+12135683224",
+        "website": "https://www.yelp.com/biz/potions-and-poisons-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.05727,
+            "longitude": -118.30745667
+        },
+        "categories": [
+            "Cocktail Bars",
+            "Lounges",
+            "Karaoke"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Thunderbird",
+        "rating": 4.3,
+        "review_count": 241,
+        "address": "12217 Wilshire Blvd, Los Angeles, CA 90025",
+        "city": "Los Angeles",
+        "zip_code": "90025",
+        "phone": "+14242938830",
+        "website": "https://www.yelp.com/biz/thunderbird-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.04331669642952,
+            "longitude": -118.4688021064195
+        },
+        "categories": [
+            "Sports Bars",
+            "Cocktail Bars",
+            "Mexican"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "JOEY DTLA",
+        "rating": 4.3,
+        "review_count": 3658,
+        "address": "700 West 7th St, Ste S430, Los Angeles, CA 90017",
+        "city": "Los Angeles",
+        "zip_code": "90017",
+        "phone": "+12133725335",
+        "website": "https://www.yelp.com/biz/joey-dtla-los-angeles-4?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0480211941309,
+            "longitude": -118.25805115693
+        },
+        "categories": [
+            "Sushi Bars",
+            "Steakhouses",
+            "Wine Bars"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "The Misfit Restaurant + Bar",
+        "rating": 4.2,
+        "review_count": 4647,
+        "address": "225 Santa Monica Blvd, Santa Monica, CA 90401",
+        "city": "Santa Monica",
+        "zip_code": "90401",
+        "phone": "+13106569800",
+        "website": "https://www.yelp.com/biz/the-misfit-restaurant-bar-santa-monica?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.015401,
+            "longitude": -118.496658
+        },
+        "categories": [
+            "Bars",
+            "New American",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Martin's Cocina y Cantina",
+        "rating": 4.2,
+        "review_count": 907,
+        "address": "162 N La Brea Ave, Inglewood, CA 90301",
+        "city": "Inglewood",
+        "zip_code": "90301",
+        "phone": "+13107744053",
+        "website": "https://www.yelp.com/biz/martins-cocina-y-cantina-inglewood?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.9641457142836,
+            "longitude": -118.3531207421088
+        },
+        "categories": [
+            "Mexican"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Broken Spirits Distillery",
+        "rating": 4.7,
+        "review_count": 742,
+        "address": "300 The Promenade N, Long Beach, CA 90802",
+        "city": "Long Beach",
+        "zip_code": "90802",
+        "phone": "+15625909000",
+        "website": "https://www.yelp.com/biz/broken-spirits-distillery-long-beach?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.77078,
+            "longitude": -118.19033
+        },
+        "categories": [
+            "Distilleries",
+            "Barbeque",
+            "Burgers"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Zinqu\u00e9",
+        "rating": 3.7,
+        "review_count": 442,
+        "address": "10250 Santa Monica Blvd, Ste 2790, Los Angeles, CA 90067",
+        "city": "Los Angeles",
+        "zip_code": "90067",
+        "phone": "+14242049403",
+        "website": "https://www.yelp.com/biz/zinqu%C3%A9-los-angeles-3?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.058763,
+            "longitude": -118.419009
+        },
+        "categories": [
+            "French",
+            "Cocktail Bars",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Public School 310",
+        "rating": 3.6,
+        "review_count": 2025,
+        "address": "9411 Culver Blvd, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+13105580414",
+        "website": "https://www.yelp.com/biz/public-school-310-culver-city-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.02431,
+            "longitude": -118.3946
+        },
+        "categories": [
+            "Gastropubs",
+            "Bars",
+            "American"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Broad Street Oyster Company",
+        "rating": 4.2,
+        "review_count": 1672,
+        "address": "23359 Pacific Coast Hwy, Malibu, CA 90265",
+        "city": "Malibu",
+        "zip_code": "90265",
+        "phone": "+14246440131",
+        "website": "https://www.yelp.com/biz/broad-street-oyster-company-malibu-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.035457,
+            "longitude": -118.683902
+        },
+        "categories": [
+            "Seafood",
+            "Burgers",
+            "Fish & Chips"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "1212 Santa Monica",
+        "rating": 4.5,
+        "review_count": 4189,
+        "address": "1212 3rd St Promenade, Santa Monica, CA 90401",
+        "city": "Santa Monica",
+        "zip_code": "90401",
+        "phone": "+13105769996",
+        "website": "https://www.yelp.com/biz/1212-santa-monica-santa-monica-5?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0178817810279,
+            "longitude": -118.499016734953
+        },
+        "categories": [
+            "Cocktail Bars",
+            "New American",
+            "Venues & Event Spaces"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Alley Lounge",
+        "rating": 4.1,
+        "review_count": 359,
+        "address": "12223 West Washington Blvd, Culver City, CA 90066",
+        "city": "Culver City",
+        "zip_code": "90066",
+        "phone": "+13105968257",
+        "website": "https://www.yelp.com/biz/alley-lounge-culver-city-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.9975,
+            "longitude": -118.4263
+        },
+        "categories": [
+            "Cocktail Bars",
+            "Lounges",
+            "Tacos"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Caravan Swim Club",
+        "rating": 4.3,
+        "review_count": 134,
+        "address": "8639 Lincoln Blvd Hotel June, Hotel June, Los Angeles, CA 90045",
+        "city": "Los Angeles",
+        "zip_code": "90045",
+        "phone": "+13104916646",
+        "website": "https://www.yelp.com/biz/caravan-swim-club-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.958652,
+            "longitude": -118.418774
+        },
+        "categories": [
+            "Cocktail Bars",
+            "Breakfast & Brunch",
+            "Mexican"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Wolfsglen",
+        "rating": 4.4,
+        "review_count": 235,
+        "address": "1071 Glendon Ave, Los Angeles, CA 90024",
+        "city": "Los Angeles",
+        "zip_code": "90024",
+        "phone": "+14242562227",
+        "website": "https://www.yelp.com/biz/wolfsglen-los-angeles-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.061179,
+            "longitude": -118.444519
+        },
+        "categories": [
+            "Cocktail Bars",
+            "New American",
+            "Venues & Event Spaces"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Met Him At A Bar",
+        "rating": 4.3,
+        "review_count": 906,
+        "address": "801 S La Brea, Los Angeles, CA 90036",
+        "city": "Los Angeles",
+        "zip_code": "90036",
+        "phone": "+13238523321",
+        "website": "https://www.yelp.com/biz/met-him-at-a-bar-los-angeles-3?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.060415,
+            "longitude": -118.345018
+        },
+        "categories": [
+            "Italian",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Founders Ale House",
+        "rating": 4.4,
+        "review_count": 406,
+        "address": "8771 W Pico Blvd, Los Angeles, CA 90035",
+        "city": "Los Angeles",
+        "zip_code": "90035",
+        "phone": "+14247770079",
+        "website": "https://www.yelp.com/biz/founders-ale-house-los-angeles-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0550257964308,
+            "longitude": -118.38336369965
+        },
+        "categories": [
+            "New American",
+            "Sports Bars",
+            "Gastropubs"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Esters Wine Shop & Bar",
+        "rating": 4.1,
+        "review_count": 345,
+        "address": "1314 7th St, Santa Monica, CA 90401",
+        "city": "Santa Monica",
+        "zip_code": "90401",
+        "phone": "+13108996900",
+        "website": "https://www.yelp.com/biz/esters-wine-shop-and-bar-santa-monica?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0194511,
+            "longitude": -118.4934041
+        },
+        "categories": [
+            "Wine Bars",
+            "Breakfast & Brunch",
+            "Cocktail Bars"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Sauced BBQ & Spirits - El Segundo",
+        "rating": 4.0,
+        "review_count": 684,
+        "address": "2015 Park Pl, El Segundo, CA 90245",
+        "city": "El Segundo",
+        "zip_code": "90245",
+        "phone": "+13104268783",
+        "website": "https://www.yelp.com/biz/sauced-bbq-and-spirits-el-segundo-el-segundo?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.904805,
+            "longitude": -118.392789
+        },
+        "categories": [
+            "Barbeque",
+            "Southern",
+            "Axe Throwing"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "FishBar",
+        "rating": 4.2,
+        "review_count": 2093,
+        "address": "3801 Highland Ave, Manhattan Beach, CA 90266",
+        "city": "Manhattan Beach",
+        "zip_code": "90266",
+        "phone": "+13107960200",
+        "website": "https://www.yelp.com/biz/fishbar-manhattan-beach-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.9017011,
+            "longitude": -118.4183056
+        },
+        "categories": [
+            "Seafood",
+            "Breakfast & Brunch",
+            "New American"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Meet in Paris",
+        "rating": 3.8,
+        "review_count": 2231,
+        "address": "9727 Culver Blvd, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+13108158222",
+        "website": "https://www.yelp.com/biz/meet-in-paris-culver-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.02206238081718,
+            "longitude": -118.39643665506902
+        },
+        "categories": [
+            "French",
+            "Breakfast & Brunch",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "The Hula Hula Room",
+        "rating": 4.5,
+        "review_count": 122,
+        "address": "20930 Hawthorne Blvd, Torrance, CA 90503",
+        "city": "Torrance",
+        "zip_code": "90503",
+        "phone": "+14245384757",
+        "website": "https://www.yelp.com/biz/the-hula-hula-room-torrance?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.83955870882627,
+            "longitude": -118.3530205
+        },
+        "categories": [
+            "Tiki Bars",
+            "Cocktail Bars",
+            "Club Crawl"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "The Grant",
+        "rating": 4.5,
+        "review_count": 82,
+        "address": "3515 Eagle Rock Blvd, Los Angeles, CA 90065",
+        "city": "Los Angeles",
+        "zip_code": "90065",
+        "phone": "",
+        "website": "https://www.yelp.com/biz/the-grant-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.11631,
+            "longitude": -118.23575
+        },
+        "categories": [
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Teleferic Barcelona",
+        "rating": 4.0,
+        "review_count": 371,
+        "address": "11930 San Vicente Blvd, Los Angeles, CA 90049",
+        "city": "Los Angeles",
+        "zip_code": "90049",
+        "phone": "+14248327595",
+        "website": "https://www.yelp.com/biz/teleferic-barcelona-los-angeles-11?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.05229,
+            "longitude": -118.4712
+        },
+        "categories": [
+            "Cocktail Bars",
+            "Spanish"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Le Grand",
+        "rating": 4.0,
+        "review_count": 1905,
+        "address": "707 S Grand Ave, Los Angeles, CA 90017",
+        "city": "Los Angeles",
+        "zip_code": "90017",
+        "phone": "+12132107777",
+        "website": "https://www.yelp.com/biz/le-grand-los-angeles-6?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.047134,
+            "longitude": -118.257089
+        },
+        "categories": [
+            "New American",
+            "Breakfast & Brunch",
+            "American"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Duke's Malibu",
+        "rating": 3.9,
+        "review_count": 3583,
+        "address": "21150 Pacific Coast Hwy, Malibu, CA 90265",
+        "city": "Malibu",
+        "zip_code": "90265",
+        "phone": "+13103170777",
+        "website": "https://www.yelp.com/biz/dukes-malibu-malibu-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.03644,
+            "longitude": -118.635889
+        },
+        "categories": [
+            "New American",
+            "Seafood",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Cafe Habana",
+        "rating": 3.1,
+        "review_count": 1176,
+        "address": "3939 Cross Creek Rd, Malibu, CA 90265",
+        "city": "Malibu",
+        "zip_code": "90265",
+        "phone": "+13103170300",
+        "website": "https://www.yelp.com/biz/cafe-habana-malibu-3?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0346089792598,
+            "longitude": -118.685714748435
+        },
+        "categories": [
+            "Cuban",
+            "Mexican",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Chulita",
+        "rating": 4.3,
+        "review_count": 655,
+        "address": "533 Rose Ave, Venice, CA 90291",
+        "city": "Venice",
+        "zip_code": "90291",
+        "phone": "+13103924440",
+        "website": "https://www.yelp.com/biz/chulita-venice?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.99878,
+            "longitude": -118.47305
+        },
+        "categories": [
+            "Mexican",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Lobster & Beer",
+        "rating": 4.2,
+        "review_count": 1413,
+        "address": "3456 Motor Ave, Ste 101, Los Angeles, CA 90034",
+        "city": "Los Angeles",
+        "zip_code": "90034",
+        "phone": "+14242988106",
+        "website": "https://www.yelp.com/biz/lobster-and-beer-los-angeles-3?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.026873716673464,
+            "longitude": -118.40866954358448
+        },
+        "categories": [
+            "Seafood",
+            "Beer Bar"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Tangaroa Fish Market",
+        "rating": 4.1,
+        "review_count": 804,
+        "address": "12604 W Washington Blvd, Los Angeles, CA 90066",
+        "city": "Los Angeles",
+        "zip_code": "90066",
+        "phone": "+14242898144",
+        "website": "https://www.yelp.com/biz/tangaroa-fish-market-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.996604,
+            "longitude": -118.432363
+        },
+        "categories": [
+            "Seafood Markets",
+            "Seafood",
+            "Fish & Chips"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Propaganda Wine Bar",
+        "rating": 4.7,
+        "review_count": 215,
+        "address": "950 E 3rd St, Los Angeles, CA 90013",
+        "city": "Los Angeles",
+        "zip_code": "90013",
+        "phone": "+12139473200",
+        "website": "https://www.yelp.com/biz/propaganda-wine-bar-los-angeles-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.04580780000001,
+            "longitude": -118.23407108220891
+        },
+        "categories": [
+            "Wine Bars",
+            "Italian",
+            "Pizza"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Mercado Manhattan Beach",
+        "rating": 4.2,
+        "review_count": 444,
+        "address": "3212A N Sepulveda Blvd, Manhattan Beach, CA 90266",
+        "city": "Manhattan Beach",
+        "zip_code": "90266",
+        "phone": "+13105450388",
+        "website": "https://www.yelp.com/biz/mercado-manhattan-beach-manhattan-beach-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.899231277212785,
+            "longitude": -118.39405657279214
+        },
+        "categories": [
+            "Mexican",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "The Front Yard",
+        "rating": 4.0,
+        "review_count": 3854,
+        "address": "4222 Vineland Ave, North Hollywood, CA 91602",
+        "city": "North Hollywood",
+        "zip_code": "91602",
+        "phone": "+18182557290",
+        "website": "https://www.yelp.com/biz/the-front-yard-north-hollywood-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.145172,
+            "longitude": -118.369529
+        },
+        "categories": [
+            "Breakfast & Brunch",
+            "Beer, Wine & Spirits",
+            "American"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Little Sister",
+        "rating": 4.0,
+        "review_count": 552,
+        "address": "830 S Pacific Coast Hwy, Ste 100, El Segundo, CA 90245",
+        "city": "El Segundo",
+        "zip_code": "90245",
+        "phone": "+14248359878",
+        "website": "https://www.yelp.com/biz/little-sister-el-segundo?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.9032573,
+            "longitude": -118.3951304
+        },
+        "categories": [
+            "Vietnamese"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Ospi Venice",
+        "rating": 4.3,
+        "review_count": 1213,
+        "address": "2025 Pacific Ave, Venice, CA 90291",
+        "city": "Venice",
+        "zip_code": "90291",
+        "phone": "+14244435007",
+        "website": "https://www.yelp.com/biz/ospi-venice-venice-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.98512,
+            "longitude": -118.47027
+        },
+        "categories": [
+            "Italian",
+            "Pizza",
+            "Cocktail Bars"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Offhand Wine Bar",
+        "rating": 4.3,
+        "review_count": 48,
+        "address": "3008 Santa Monica Blvd, Ste A, Santa Monica, CA 90404",
+        "city": "Santa Monica",
+        "zip_code": "90404",
+        "phone": "",
+        "website": "https://www.yelp.com/biz/offhand-wine-bar-santa-monica?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.036381,
+            "longitude": -118.470092
+        },
+        "categories": [
+            "Wine Bars"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Laurel Tavern",
+        "rating": 3.8,
+        "review_count": 1631,
+        "address": "11938 Ventura Blvd, Studio City, CA 91604",
+        "city": "Studio City",
+        "zip_code": "91604",
+        "phone": "+18185060777",
+        "website": "https://www.yelp.com/biz/laurel-tavern-studio-city-3?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.14295,
+            "longitude": -118.3921
+        },
+        "categories": [
+            "New American",
+            "Gastropubs",
+            "Burgers"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "LouLou Santa Monica",
+        "rating": 4.0,
+        "review_count": 893,
+        "address": "395 Santa Monica Pl, Ste 300, SANTA MONICA, CA 90401",
+        "city": "SANTA MONICA",
+        "zip_code": "90401",
+        "phone": "+13234102337",
+        "website": "https://www.yelp.com/biz/loulou-santa-monica-santa-monica?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0133391247957,
+            "longitude": -118.49463787303488
+        },
+        "categories": [
+            "French",
+            "Lounges",
+            "Breakfast & Brunch"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Casa 12",
+        "rating": 4.6,
+        "review_count": 150,
+        "address": "12 Washington Blvd, Marina del Rey, CA 90292",
+        "city": "Marina del Rey",
+        "zip_code": "90292",
+        "phone": "+13104370666",
+        "website": "https://www.yelp.com/biz/casa-12-marina-del-rey?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.979088,
+            "longitude": -118.466329
+        },
+        "categories": [
+            "Italian",
+            "Wine Bars",
+            "Breakfast & Brunch"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Highly Likely",
+        "rating": 4.0,
+        "review_count": 265,
+        "address": "5526 N Figueroa St, Los Angeles, CA 90042",
+        "city": "Los Angeles",
+        "zip_code": "90042",
+        "phone": "",
+        "website": "https://www.yelp.com/biz/highly-likely-los-angeles-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.108146,
+            "longitude": -118.195219
+        },
+        "categories": [
+            "Breakfast & Brunch",
+            "Salad",
+            "Coffee & Tea"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "The Surfing Fox",
+        "rating": 4.4,
+        "review_count": 215,
+        "address": "120 Colorado Ave, Santa Monica, CA 90401",
+        "city": "Santa Monica",
+        "zip_code": "90401",
+        "phone": "+14242141830",
+        "website": "https://www.yelp.com/biz/the-surfing-fox-santa-monica?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.011814,
+            "longitude": -118.494093
+        },
+        "categories": [
+            "New American"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Kalaveras - Los Angeles",
+        "rating": 4.0,
+        "review_count": 323,
+        "address": "11940 W Pico Blvd, Los Angeles, CA 90064",
+        "city": "Los Angeles",
+        "zip_code": "90064",
+        "phone": "+14243253030",
+        "website": "https://www.yelp.com/biz/kalaveras-los-angeles-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0299531,
+            "longitude": -118.4487223
+        },
+        "categories": [
+            "Mexican",
+            "Sports Bars",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Happy Rabbit",
+        "rating": 4.6,
+        "review_count": 47,
+        "address": "5248 Van Nuys Blvd, Sherman Oaks, CA 91401",
+        "city": "Sherman Oaks",
+        "zip_code": "91401",
+        "phone": "+18188495751",
+        "website": "https://www.yelp.com/biz/happy-rabbit-sherman-oaks?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.16617,
+            "longitude": -118.448354
+        },
+        "categories": [
+            "Lounges",
+            "Cocktail Bars"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "The Cloverfield",
+        "rating": 4.0,
+        "review_count": 382,
+        "address": "3300 Airport Ave, Santa Monica, CA 90405",
+        "city": "Santa Monica",
+        "zip_code": "90405",
+        "phone": "+14245002075",
+        "website": "https://www.yelp.com/biz/the-cloverfield-santa-monica-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.01574,
+            "longitude": -118.446036
+        },
+        "categories": [
+            "New American"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Tempo Cantina - Downey",
+        "rating": 3.9,
+        "review_count": 3305,
+        "address": "12056 Paramount Blvd, Downey, CA 90242",
+        "city": "Downey",
+        "zip_code": "90242",
+        "phone": "+15623219600",
+        "website": "https://www.yelp.com/biz/tempo-cantina-downey-downey-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.93199,
+            "longitude": -118.1454
+        },
+        "categories": [
+            "Mexican",
+            "Bars",
+            "Desserts"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Nelson's",
+        "rating": 3.4,
+        "review_count": 1467,
+        "address": "100 Terranea Way, Rancho Palos Verdes, CA 90275",
+        "city": "Rancho Palos Verdes",
+        "zip_code": "90275",
+        "phone": "+13102652702",
+        "website": "https://www.yelp.com/biz/nelsons-rancho-palos-verdes?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.73694483430643,
+            "longitude": -118.3989907582397
+        },
+        "categories": [
+            "Seafood",
+            "Gastropubs",
+            "American"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Clandestino Gastro-Bar",
+        "rating": 4.5,
+        "review_count": 1550,
+        "address": "353 E Foothill Boulevard, Azusa, CA 91702",
+        "city": "Azusa",
+        "zip_code": "91702",
+        "phone": "+16266464164",
+        "website": "https://www.yelp.com/biz/clandestino-gastro-bar-azusa?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.1337394,
+            "longitude": -117.9039535
+        },
+        "categories": [
+            "Latin American",
+            "Breakfast & Brunch",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Yard House",
+        "rating": 3.5,
+        "review_count": 1270,
+        "address": "13455 Maxella Ave, Ste 150-170, Marina Del Rey, CA 90292",
+        "city": "Marina Del Rey",
+        "zip_code": "90292",
+        "phone": "+13108227690",
+        "website": "https://www.yelp.com/biz/yard-house-marina-del-rey-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.986784,
+            "longitude": -118.442073
+        },
+        "categories": [
+            "New American",
+            "Vegetarian",
+            "Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Firestone Walker Brewing Company - The Propagator",
+        "rating": 3.9,
+        "review_count": 1016,
+        "address": "3205 Washington Blvd, Marina Del Rey, CA 90292",
+        "city": "Marina Del Rey",
+        "zip_code": "90292",
+        "phone": "+13104398264",
+        "website": "https://www.yelp.com/biz/firestone-walker-brewing-company-the-propagator-marina-del-rey?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.98972,
+            "longitude": -118.44861
+        },
+        "categories": [
+            "Brewpubs",
+            "New American",
+            "Wine Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "The Henry",
+        "rating": 4.2,
+        "review_count": 1184,
+        "address": "120 N Robertson Blvd, Los Angeles, CA 90048",
+        "city": "Los Angeles",
+        "zip_code": "90048",
+        "phone": "+14242041595",
+        "website": "https://www.yelp.com/biz/the-henry-los-angeles-4?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0761,
+            "longitude": -118.383
+        },
+        "categories": [
+            "New American",
+            "Breakfast & Brunch",
+            "Cocktail Bars"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "SoCal Vibes",
+        "rating": 4.3,
+        "review_count": 287,
+        "address": "17812 S Main St, Carson, CA 90248",
+        "city": "Carson",
+        "zip_code": "90248",
+        "phone": "+14242923153",
+        "website": "https://www.yelp.com/biz/socal-vibes-carson-10?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.8688770655701,
+            "longitude": -118.27505047061936
+        },
+        "categories": [
+            "Breweries",
+            "New American",
+            "Venues & Event Spaces"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Malibu Farm Pier Cafe",
+        "rating": 4.1,
+        "review_count": 2244,
+        "address": "23000 Pacific Coast Hwy, Malibu, CA 90265",
+        "city": "Malibu",
+        "zip_code": "90265",
+        "phone": "+13104562852",
+        "website": "https://www.yelp.com/biz/malibu-farm-pier-cafe-malibu?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0356298,
+            "longitude": -118.6756308
+        },
+        "categories": [
+            "Cafes",
+            "Burgers",
+            "Coffee & Tea"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "The Stalking Horse Brewery & Freehouse",
+        "rating": 4.0,
+        "review_count": 427,
+        "address": "10543 W Pico Blvd, Los Angeles, CA 90064",
+        "city": "Los Angeles",
+        "zip_code": "90064",
+        "phone": "+14248327511",
+        "website": "https://www.yelp.com/biz/the-stalking-horse-brewery-and-freehouse-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.04471,
+            "longitude": -118.42041
+        },
+        "categories": [
+            "Cocktail Bars",
+            "Brewpubs",
+            "Tapas/Small Plates"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Zinqu\u00e9",
+        "rating": 4.0,
+        "review_count": 356,
+        "address": "1440 Lincoln Blvd, Los Angeles, CA 90291",
+        "city": "Los Angeles",
+        "zip_code": "90291",
+        "phone": "+13103102469",
+        "website": "https://www.yelp.com/biz/zinqu%C3%A9-los-angeles-4?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.997898,
+            "longitude": -118.459933
+        },
+        "categories": [
+            "French",
+            "Breakfast & Brunch",
+            "Cocktail Bars"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "PLANTA Cocina Marina Del Rey",
+        "rating": 4.3,
+        "review_count": 599,
+        "address": "4625 Admiralty Way, Ste 104, Marina Del Rey, CA 90292",
+        "city": "Marina Del Rey",
+        "zip_code": "90292",
+        "phone": "+13103627730",
+        "website": "https://www.yelp.com/biz/planta-cocina-marina-del-rey-marina-del-rey?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.981379,
+            "longitude": -118.44201
+        },
+        "categories": [
+            "Sushi Bars",
+            "Vegetarian",
+            "Asian Fusion"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Palmilla Cocina Y Tequila",
+        "rating": 4.4,
+        "review_count": 2275,
+        "address": "39 Pier Ave, Hermosa Beach, CA 90254",
+        "city": "Hermosa Beach",
+        "zip_code": "90254",
+        "phone": "+13103744440",
+        "website": "https://www.yelp.com/biz/palmilla-cocina-y-tequila-hermosa-beach?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.862224,
+            "longitude": -118.40102
+        },
+        "categories": [
+            "Mexican",
+            "Bars",
+            "Seafood"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Father's Office",
+        "rating": 3.8,
+        "review_count": 3234,
+        "address": "1018 Montana Ave, Santa Monica, CA 90403",
+        "city": "Santa Monica",
+        "zip_code": "90403",
+        "phone": "+13103932337",
+        "website": "https://www.yelp.com/biz/fathers-office-santa-monica?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.02928,
+            "longitude": -118.49833
+        },
+        "categories": [
+            "Burgers",
+            "New American",
+            "Gastropubs"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Grandmaster Recorders",
+        "rating": 4.1,
+        "review_count": 372,
+        "address": "1518 N Cahuenga Blvd, Los Angeles, CA 90028",
+        "city": "Los Angeles",
+        "zip_code": "90028",
+        "phone": "+13239637800",
+        "website": "https://www.yelp.com/biz/grandmaster-recorders-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0986175537109,
+            "longitude": -118.329124450684
+        },
+        "categories": [
+            "Lounges",
+            "Italian",
+            "Cocktail Bars"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Highly Likely",
+        "rating": 3.8,
+        "review_count": 640,
+        "address": "4310 W Jefferson Blvd, Los Angeles, CA 90016",
+        "city": "Los Angeles",
+        "zip_code": "90016",
+        "phone": "+13106224550",
+        "website": "https://www.yelp.com/biz/highly-likely-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0253950812194,
+            "longitude": -118.3433254
+        },
+        "categories": [
+            "Coffee & Tea",
+            "Breakfast & Brunch",
+            "Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Sorry Not Sorry",
+        "rating": 3.9,
+        "review_count": 328,
+        "address": "11520 W Pico Blvd, Los Angeles, CA 90064",
+        "city": "Los Angeles",
+        "zip_code": "90064",
+        "phone": "+14248327000",
+        "website": "https://www.yelp.com/biz/sorry-not-sorry-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0331,
+            "longitude": -118.4425
+        },
+        "categories": [
+            "Cocktail Bars",
+            "Wine Bars",
+            "New American"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Lost & Found",
+        "rating": 3.9,
+        "review_count": 206,
+        "address": "11700 National Blvd, Los Angeles, CA 90064",
+        "city": "Los Angeles",
+        "zip_code": "90064",
+        "phone": "+13103977772",
+        "website": "https://www.yelp.com/biz/lost-and-found-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.022163936382114,
+            "longitude": -118.438784820099
+        },
+        "categories": [
+            "Speakeasies",
+            "Cocktail Bars"
+        ],
+        "price": "$"
+    },
+    {
+        "name": "AC Bar and Lounge",
+        "rating": 4.2,
+        "review_count": 46,
+        "address": "2130 E Maple Ave, El Segundo, CA 90245",
+        "city": "El Segundo",
+        "zip_code": "90245",
+        "phone": "+13103223333",
+        "website": "https://www.yelp.com/biz/ac-bar-and-lounge-el-segundo-4?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.926826,
+            "longitude": -118.386125
+        },
+        "categories": [
+            "Tapas/Small Plates",
+            "Lounges"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "High Tide",
+        "rating": 4.2,
+        "review_count": 134,
+        "address": "605 E 4th St, Los Angeles, CA 90013",
+        "city": "Los Angeles",
+        "zip_code": "90013",
+        "phone": "+12132217317",
+        "website": "https://www.yelp.com/biz/high-tide-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.044503,
+            "longitude": -118.24037
+        },
+        "categories": [
+            "Beer Gardens",
+            "Cocktail Bars",
+            "Music Venues"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Little Fatty",
+        "rating": 4.0,
+        "review_count": 1338,
+        "address": "3809 - 3813 Grandview Blvd, Los Angeles, CA 90066",
+        "city": "Los Angeles",
+        "zip_code": "90066",
+        "phone": "+13103619496",
+        "website": "https://www.yelp.com/biz/little-fatty-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.004426,
+            "longitude": -118.43112948343236
+        },
+        "categories": [
+            "Taiwanese",
+            "Chinese",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Broken Compass Tiki",
+        "rating": 4.3,
+        "review_count": 506,
+        "address": "2013 W Burbank Blvd, Burbank, CA 91506",
+        "city": "Burbank",
+        "zip_code": "91506",
+        "phone": "+18185883013",
+        "website": "https://www.yelp.com/biz/broken-compass-tiki-burbank?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.18058341839551,
+            "longitude": -118.33319676246124
+        },
+        "categories": [
+            "New American",
+            "Cocktail Bars",
+            "Tiki Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Malibu Farm Restaurant",
+        "rating": 4.1,
+        "review_count": 2645,
+        "address": "23000 Pacific Coast Hwy, Front Of The Pier, Malibu, CA 90265",
+        "city": "Malibu",
+        "zip_code": "90265",
+        "phone": "+13104568850",
+        "website": "https://www.yelp.com/biz/malibu-farm-restaurant-malibu?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0356260579186,
+            "longitude": -118.675627378077
+        },
+        "categories": [
+            "Salad",
+            "New American",
+            "Coffee & Tea"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Coco Beach Bar & Grill",
+        "rating": 3.9,
+        "review_count": 136,
+        "address": "404 Washington Blvd, Marina del Rey, CA 90292",
+        "city": "Marina del Rey",
+        "zip_code": "90292",
+        "phone": "+13109169888",
+        "website": "https://www.yelp.com/biz/coco-beach-bar-and-grill-marina-del-rey?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.98102,
+            "longitude": -118.46329
+        },
+        "categories": [
+            "Sports Bars",
+            "American",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Hopdoddy Burger Bar",
+        "rating": 3.7,
+        "review_count": 1049,
+        "address": "12746 Jefferson Blvd, Ste 1120, Playa Vista, CA 90094",
+        "city": "Playa Vista",
+        "zip_code": "90094",
+        "phone": "+13104102337",
+        "website": "https://www.yelp.com/biz/hopdoddy-burger-bar-playa-vista?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.97639308230781,
+            "longitude": -118.41777350124462
+        },
+        "categories": [
+            "Burgers"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Taverna At The Mar Vista",
+        "rating": 4.1,
+        "review_count": 631,
+        "address": "12249 Venice Blvd, Los Angeles, CA 90066",
+        "city": "Los Angeles",
+        "zip_code": "90066",
+        "phone": "+13107516773",
+        "website": "https://www.yelp.com/biz/taverna-at-the-mar-vista-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0046416072942,
+            "longitude": -118.432262332021
+        },
+        "categories": [
+            "Mediterranean",
+            "Greek"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Sol y Luna",
+        "rating": 3.9,
+        "review_count": 2846,
+        "address": "19601 Ventura Blvd, Tarzana, CA 91356",
+        "city": "Tarzana",
+        "zip_code": "91356",
+        "phone": "+18183438488",
+        "website": "https://www.yelp.com/biz/sol-y-luna-tarzana?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.1730205,
+            "longitude": -118.56023303005944
+        },
+        "categories": [
+            "Mexican",
+            "Cocktail Bars",
+            "Seafood"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "the Hook & Plow Manhattan Beach",
+        "rating": 4.4,
+        "review_count": 68,
+        "address": "1112 Manhattan Ave, Manhattan Beach, CA 90266",
+        "city": "Manhattan Beach",
+        "zip_code": "90266",
+        "phone": "+14243042100",
+        "website": "https://www.yelp.com/biz/the-hook-and-plow-manhattan-beach-manhattan-beach?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.8845,
+            "longitude": -118.4104
+        },
+        "categories": [
+            "Seafood",
+            "Breakfast & Brunch",
+            "Cocktail Bars"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "The Backyard at Chez Jays",
+        "rating": 4.5,
+        "review_count": 41,
+        "address": "1657 Ocean Ave, Santa Monica, CA 90401",
+        "city": "Santa Monica",
+        "zip_code": "90401",
+        "phone": "+13103951741",
+        "website": "https://www.yelp.com/biz/the-backyard-at-chez-jays-santa-monica?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.010463,
+            "longitude": -118.493259
+        },
+        "categories": [
+            "New American",
+            "Breakfast & Brunch",
+            "Cocktail Bars"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Calabra",
+        "rating": 3.8,
+        "review_count": 397,
+        "address": "700 Proper Hotel Rooftop Wilshire Blvd Santa, Santa Monica, CA 90401",
+        "city": "Santa Monica",
+        "zip_code": "90401",
+        "phone": "+13106209990",
+        "website": "https://www.yelp.com/biz/calabra-santa-monica?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.021337,
+            "longitude": -118.495073
+        },
+        "categories": [
+            "Mediterranean",
+            "Cocktail Bars"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "LA Cha Cha Ch\u00e1",
+        "rating": 3.8,
+        "review_count": 867,
+        "address": "812 E 3rd St, Los Angeles, CA 90013",
+        "city": "Los Angeles",
+        "zip_code": "90013",
+        "phone": "",
+        "website": "https://www.yelp.com/biz/la-cha-cha-ch%C3%A1-los-angeles-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.04558,
+            "longitude": -118.2357
+        },
+        "categories": [
+            "Mexican",
+            "Cocktail Bars"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "The Hideaway",
+        "rating": 3.9,
+        "review_count": 696,
+        "address": "421 N Rodeo Dr, Beverly Hills, CA 90210",
+        "city": "Beverly Hills",
+        "zip_code": "90210",
+        "phone": "+13109748020",
+        "website": "https://www.yelp.com/biz/the-hideaway-beverly-hills?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.069617,
+            "longitude": -118.403712
+        },
+        "categories": [
+            "Steakhouses",
+            "Mexican",
+            "Cocktail Bars"
+        ],
+        "price": "$$$$"
+    },
+    {
+        "name": "Japonica - El Segundo",
+        "rating": 4.4,
+        "review_count": 489,
+        "address": "229 N Main St, El Segundo, CA 90245",
+        "city": "El Segundo",
+        "zip_code": "90245",
+        "phone": "+14243927621",
+        "website": "https://www.yelp.com/biz/japonica-el-segundo-el-segundo-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.9185416,
+            "longitude": -118.4160949
+        },
+        "categories": [
+            "Sushi Bars",
+            "Ramen"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Tony P's Dockside Grill",
+        "rating": 3.9,
+        "review_count": 1636,
+        "address": "4445 Admiralty Way, Marina Del Rey, CA 90292",
+        "city": "Marina Del Rey",
+        "zip_code": "90292",
+        "phone": "+13108234534",
+        "website": "https://www.yelp.com/biz/tony-ps-dockside-grill-marina-del-rey?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.983738575143,
+            "longitude": -118.44789794306
+        },
+        "categories": [
+            "Sports Bars",
+            "Seafood",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Sol Agave",
+        "rating": 4.3,
+        "review_count": 861,
+        "address": "800 W Olympic Blvd, Ste A130, Los Angeles, CA 90015",
+        "city": "Los Angeles",
+        "zip_code": "90015",
+        "phone": "+12135365287",
+        "website": "https://www.yelp.com/biz/sol-agave-los-angeles-12?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.045021464745375,
+            "longitude": -118.2649805036731
+        },
+        "categories": [
+            "New Mexican Cuisine"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Alibi Room",
+        "rating": 4.0,
+        "review_count": 1588,
+        "address": "12236 W Washington Blvd, Los Angeles, CA 90066",
+        "city": "Los Angeles",
+        "zip_code": "90066",
+        "phone": "+13103909300",
+        "website": "https://www.yelp.com/biz/alibi-room-los-angeles-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.99689,
+            "longitude": -118.42654
+        },
+        "categories": [
+            "Lounges",
+            "Korean",
+            "Chicken Wings"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Wood & Water",
+        "rating": 4.3,
+        "review_count": 694,
+        "address": "13359 Ventura Blvd, Sherman Oaks, CA 91423",
+        "city": "Sherman Oaks",
+        "zip_code": "91423",
+        "phone": "+18188551661",
+        "website": "https://www.yelp.com/biz/wood-and-water-sherman-oaks?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.1471475,
+            "longitude": -118.424406
+        },
+        "categories": [
+            "New American",
+            "Seafood",
+            "Cocktail Bars"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Nomad Eatery",
+        "rating": 4.3,
+        "review_count": 221,
+        "address": "2041 Rosecrans Ave, Ste 190, El Segundo, CA 90245",
+        "city": "El Segundo",
+        "zip_code": "90245",
+        "phone": "+13106065500",
+        "website": "https://www.yelp.com/biz/nomad-eatery-el-segundo?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.902366,
+            "longitude": -118.389089
+        },
+        "categories": [
+            "Mediterranean",
+            "New American",
+            "Seafood"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Bar Magnolia",
+        "rating": 4.0,
+        "review_count": 61,
+        "address": "939 S Figueroa St, Los Angeles, CA 90015",
+        "city": "Los Angeles",
+        "zip_code": "90015",
+        "phone": "+12136603006",
+        "website": "https://www.yelp.com/biz/bar-magnolia-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.045551753372656,
+            "longitude": -118.2640141
+        },
+        "categories": [
+            "Lounges",
+            "Cocktail Bars"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Melanie",
+        "rating": 4.7,
+        "review_count": 92,
+        "address": "8310 W 3rd St, Los Angeles, CA 90048",
+        "city": "Los Angeles",
+        "zip_code": "90048",
+        "phone": "+13235923390",
+        "website": "https://www.yelp.com/biz/melanie-los-angeles-3?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.072530477423925,
+            "longitude": -118.3705086
+        },
+        "categories": [
+            "Wine Bars",
+            "Burgers"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Drugstore Cowboy",
+        "rating": 4.8,
+        "review_count": 92,
+        "address": "4330 W Sunset Blvd, Los Angeles, CA 90029",
+        "city": "Los Angeles",
+        "zip_code": "90029",
+        "phone": "",
+        "website": "https://www.yelp.com/biz/drugstore-cowboy-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.09516,
+            "longitude": -118.28382
+        },
+        "categories": [
+            "Cocktail Bars"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "The Penmar",
+        "rating": 4.1,
+        "review_count": 99,
+        "address": "1233 Rose Ave, Venice, CA 90291",
+        "city": "Venice",
+        "zip_code": "90291",
+        "phone": "+13103102576",
+        "website": "https://www.yelp.com/biz/the-penmar-venice-4?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.00643,
+            "longitude": -118.45918
+        },
+        "categories": [
+            "American"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "North Italia",
+        "rating": 4.2,
+        "review_count": 2734,
+        "address": "840 S CA-1, Ste 110, El Segundo, CA 90245",
+        "city": "El Segundo",
+        "zip_code": "90245",
+        "phone": "+13104697695",
+        "website": "https://www.yelp.com/biz/north-italia-el-segundo?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.902508217319614,
+            "longitude": -118.39559044471116
+        },
+        "categories": [
+            "Pizza",
+            "Italian",
+            "Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "33 Taps DTLA",
+        "rating": 4.1,
+        "review_count": 192,
+        "address": "1240 S Figueroa St, Los Angeles, CA 90015",
+        "city": "Los Angeles",
+        "zip_code": "90015",
+        "phone": "+14422495443",
+        "website": "https://www.yelp.com/biz/33-taps-dtla-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.04106,
+            "longitude": -118.267098
+        },
+        "categories": [
+            "Sports Bars",
+            "Breakfast & Brunch",
+            "Gastropubs"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "True Food Kitchen",
+        "rating": 4.3,
+        "review_count": 461,
+        "address": "10250 Santa Monica Blvd, Ste 1400, Los Angeles, CA 90067",
+        "city": "Los Angeles",
+        "zip_code": "90067",
+        "phone": "+13107364900",
+        "website": "https://www.yelp.com/biz/true-food-kitchen-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.05809662363733,
+            "longitude": -118.41734567415982
+        },
+        "categories": [
+            "New American",
+            "Breakfast & Brunch",
+            "Comfort Food"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Melody Bar and Grill",
+        "rating": 3.9,
+        "review_count": 996,
+        "address": "9132 S Sepulveda Blvd, Los Angeles, CA 90045",
+        "city": "Los Angeles",
+        "zip_code": "90045",
+        "phone": "+13106701994",
+        "website": "https://www.yelp.com/biz/melody-bar-and-grill-los-angeles-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.9537242,
+            "longitude": -118.3959079
+        },
+        "categories": [
+            "Bars",
+            "New American",
+            "Dance Clubs"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Morrison - Burbank",
+        "rating": 4.3,
+        "review_count": 532,
+        "address": "3821 W Magnolia Blvd, Burbank, CA 91505",
+        "city": "Burbank",
+        "zip_code": "91505",
+        "phone": "+18188430227",
+        "website": "https://www.yelp.com/biz/morrison-burbank-burbank?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.167449,
+            "longitude": -118.348925
+        },
+        "categories": [
+            "Gastropubs",
+            "Burgers",
+            "New American"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "The Proud Bird Food Bazaar & Events Center",
+        "rating": 3.6,
+        "review_count": 833,
+        "address": "11022 Aviation Blvd, Los Angeles, CA 90045",
+        "city": "Los Angeles",
+        "zip_code": "90045",
+        "phone": "+13106703093",
+        "website": "https://www.yelp.com/biz/the-proud-bird-food-bazaar-and-events-center-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.93551,
+            "longitude": -118.37768
+        },
+        "categories": [
+            "New American",
+            "Venues & Event Spaces",
+            "Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Father\u2019s Office",
+        "rating": 3.8,
+        "review_count": 186,
+        "address": "905 E 2nd St, Los Angeles, CA 90012",
+        "city": "Los Angeles",
+        "zip_code": "90012",
+        "phone": "+13107362224",
+        "website": "https://www.yelp.com/biz/father-s-office-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.04727,
+            "longitude": -118.2348098
+        },
+        "categories": [
+            "Beer Bar",
+            "Venues & Event Spaces",
+            "American"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Pizzana - Marina del Rey",
+        "rating": 4.1,
+        "review_count": 128,
+        "address": "4716 Lincoln Blvd, Unit C, Marina del Rey, CA 90292",
+        "city": "Marina del Rey",
+        "zip_code": "90292",
+        "phone": "+13106021100",
+        "website": "https://www.yelp.com/biz/pizzana-marina-del-rey-marina-del-rey-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.98060120003982,
+            "longitude": -118.43766622294252
+        },
+        "categories": [
+            "Pizza",
+            "Italian",
+            "Pasta Shops"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "SALT Restaurant and Bar",
+        "rating": 3.7,
+        "review_count": 1596,
+        "address": "13534 Bali Way, Marina del Rey, CA 90292",
+        "city": "Marina del Rey",
+        "zip_code": "90292",
+        "phone": "+14242898223",
+        "website": "https://www.yelp.com/biz/salt-restaurant-and-bar-marina-del-rey?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.9801104537557,
+            "longitude": -118.445956060783
+        },
+        "categories": [
+            "New American",
+            "Cocktail Bars",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Bacari Sherman Oaks",
+        "rating": 4.4,
+        "review_count": 728,
+        "address": "14106 Ventura Blvd, Sherman Oaks, CA 91423",
+        "city": "Sherman Oaks",
+        "zip_code": "91423",
+        "phone": "+13239866763",
+        "website": "https://www.yelp.com/biz/bacari-sherman-oaks-sherman-oaks?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.149147,
+            "longitude": -118.440241
+        },
+        "categories": [
+            "Tapas/Small Plates",
+            "Mediterranean",
+            "Italian"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Rasselbock Kitchen & Beer Garden Los Angeles",
+        "rating": 4.3,
+        "review_count": 416,
+        "address": "3817 Grand View Blvd, Los Angeles, CA 90066",
+        "city": "Los Angeles",
+        "zip_code": "90066",
+        "phone": "+13104392938",
+        "website": "https://www.yelp.com/biz/rasselbock-kitchen-and-beer-garden-los-angeles-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.00413,
+            "longitude": -118.43102
+        },
+        "categories": [
+            "German",
+            "Pubs"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Bar Cdmx",
+        "rating": 3.8,
+        "review_count": 55,
+        "address": "515 W 7th St, Basement, Los Angeles, CA 90014",
+        "city": "Los Angeles",
+        "zip_code": "90014",
+        "phone": "",
+        "website": "https://www.yelp.com/biz/bar-cdmx-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0470408076813,
+            "longitude": -118.255933603631
+        },
+        "categories": [
+            "Cocktail Bars",
+            "Arcades"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Kalaveras",
+        "rating": 4.3,
+        "review_count": 777,
+        "address": "5300 Lankershim Blvd, Ste 130, Hollywood, CA 91601",
+        "city": "Hollywood",
+        "zip_code": "91601",
+        "phone": "+18183086518",
+        "website": "https://www.yelp.com/biz/kalaveras-hollywood-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.167551300871104,
+            "longitude": -118.37601915819626
+        },
+        "categories": [
+            "Cocktail Bars",
+            "Latin American",
+            "Mexican"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Laurel Hardware",
+        "rating": 3.7,
+        "review_count": 2248,
+        "address": "7984 Santa Monica Blvd, West Hollywood, CA 90046",
+        "city": "West Hollywood",
+        "zip_code": "90046",
+        "phone": "+13236566070",
+        "website": "https://www.yelp.com/biz/laurel-hardware-west-hollywood-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.09063302507038,
+            "longitude": -118.36443325080704
+        },
+        "categories": [
+            "New American",
+            "Bars"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Saint & Second",
+        "rating": 4.3,
+        "review_count": 3304,
+        "address": "4828 E 2nd St, Long Beach, CA 90803",
+        "city": "Long Beach",
+        "zip_code": "90803",
+        "phone": "+15624334828",
+        "website": "https://www.yelp.com/biz/saint-and-second-long-beach?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.76124475344317,
+            "longitude": -118.13753610004066
+        },
+        "categories": [
+            "New American",
+            "Breakfast & Brunch",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Truxton's American Bistro",
+        "rating": 4.2,
+        "review_count": 1919,
+        "address": "8611 Truxton Ave, Los Angeles, CA 90045",
+        "city": "Los Angeles",
+        "zip_code": "90045",
+        "phone": "+13104178789",
+        "website": "https://www.yelp.com/biz/truxtons-american-bistro-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.959442,
+            "longitude": -118.39365085684156
+        },
+        "categories": [
+            "New American"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "MESSHALL",
+        "rating": 3.8,
+        "review_count": 1600,
+        "address": "4500 Los Feliz Blvd, Los Angeles, CA 90027",
+        "city": "Los Angeles",
+        "zip_code": "90027",
+        "phone": "+13236606377",
+        "website": "https://www.yelp.com/biz/messhall-los-angeles-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.1116,
+            "longitude": -118.287737
+        },
+        "categories": [
+            "Breakfast & Brunch",
+            "New American",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Margot",
+        "rating": 3.5,
+        "review_count": 1139,
+        "address": "8820 Washington Blvd, Ste 301, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+13106435853",
+        "website": "https://www.yelp.com/biz/margot-culver-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0275251,
+            "longitude": -118.3869177
+        },
+        "categories": [
+            "Spanish",
+            "Italian",
+            "Venues & Event Spaces"
+        ],
+        "price": "$$$$"
+    },
+    {
+        "name": "The Six Social House",
+        "rating": 4.1,
+        "review_count": 972,
+        "address": "10668 W Pico Blvd, Los Angeles, CA 90064",
+        "city": "Los Angeles",
+        "zip_code": "90064",
+        "phone": "+13108376662",
+        "website": "https://www.yelp.com/biz/the-six-social-house-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.04197,
+            "longitude": -118.42398
+        },
+        "categories": [
+            "New American",
+            "Breakfast & Brunch",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "The Del Monte Speakeasy",
+        "rating": 3.9,
+        "review_count": 117,
+        "address": "52 Windward Ave, Venice, CA 90291",
+        "city": "Venice",
+        "zip_code": "90291",
+        "phone": "+13103924040",
+        "website": "https://www.yelp.com/biz/the-del-monte-speakeasy-venice?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.9872017,
+            "longitude": -118.47258
+        },
+        "categories": [
+            "Speakeasies"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Cabra",
+        "rating": 4.5,
+        "review_count": 625,
+        "address": "1060 S Broadway, Los Angeles, CA 90015",
+        "city": "Los Angeles",
+        "zip_code": "90015",
+        "phone": "+12137255900",
+        "website": "https://www.yelp.com/biz/cabra-los-angeles-6?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.03973,
+            "longitude": -118.258535
+        },
+        "categories": [
+            "Peruvian"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "\u014cwa",
+        "rating": 4.3,
+        "review_count": 159,
+        "address": "1635 Abbot Kinney Blvd, Los Angeles, CA 90291",
+        "city": "Los Angeles",
+        "zip_code": "90291",
+        "phone": "+14242529015",
+        "website": "https://www.yelp.com/biz/%C5%8Dwa-los-angeles-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.98962,
+            "longitude": -118.46309
+        },
+        "categories": [
+            "Sushi Bars",
+            "Bars",
+            "Japanese"
+        ],
+        "price": "$$$$"
+    },
+    {
+        "name": "Rock & Brews - El Segundo",
+        "rating": 4.1,
+        "review_count": 1804,
+        "address": "143 Main St, El Segundo, CA 90245",
+        "city": "El Segundo",
+        "zip_code": "90245",
+        "phone": "+14244965499",
+        "website": "https://www.yelp.com/biz/rock-and-brews-el-segundo-el-segundo?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.9171292,
+            "longitude": -118.4161161
+        },
+        "categories": [
+            "New American",
+            "Burgers",
+            "Beer Bar"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Chulita",
+        "rating": 4.3,
+        "review_count": 110,
+        "address": "5160 W Adams Blvd, Los Angeles, CA 90016",
+        "city": "Los Angeles",
+        "zip_code": "90016",
+        "phone": "+13232724011",
+        "website": "https://www.yelp.com/biz/chulita-los-angeles-3?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.03217,
+            "longitude": -118.35465
+        },
+        "categories": [
+            "Mexican",
+            "Breakfast & Brunch",
+            "Cocktail Bars"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Chungdam 828",
+        "rating": 4.8,
+        "review_count": 49,
+        "address": "3474 W 8th St, Los Angeles, CA 90005",
+        "city": "Los Angeles",
+        "zip_code": "90005",
+        "phone": "+12137168919",
+        "website": "https://www.yelp.com/biz/chungdam-828-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.05747712455807,
+            "longitude": -118.3060590139495
+        },
+        "categories": [
+            "Lounges",
+            "Bar Crawl"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Library Bar",
+        "rating": 4.3,
+        "review_count": 509,
+        "address": "7000 Hollywood Blvd, Hollywood, CA 90028",
+        "city": "Hollywood",
+        "zip_code": "90028",
+        "phone": "+13234667000",
+        "website": "https://www.yelp.com/biz/library-bar-hollywood?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.10126264973744,
+            "longitude": -118.34156738220896
+        },
+        "categories": [
+            "Lounges",
+            "Cocktail Bars",
+            "Speakeasies"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Morrison Atwater Village",
+        "rating": 4.7,
+        "review_count": 8522,
+        "address": "3179 Los Feliz Blvd, Los Angeles, CA 90039",
+        "city": "Los Angeles",
+        "zip_code": "90039",
+        "phone": "+13236671839",
+        "website": "https://www.yelp.com/biz/morrison-atwater-village-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.1237706877468,
+            "longitude": -118.2687331
+        },
+        "categories": [
+            "Gastropubs",
+            "Burgers",
+            "Salad"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Anju House",
+        "rating": 4.4,
+        "review_count": 474,
+        "address": "234 S Oxford Ave, Los Angeles, CA 90004",
+        "city": "Los Angeles",
+        "zip_code": "90004",
+        "phone": "+12133155153",
+        "website": "https://www.yelp.com/biz/anju-house-los-angeles-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0701519575396,
+            "longitude": -118.3076326
+        },
+        "categories": [
+            "Korean",
+            "Bars",
+            "Tapas/Small Plates"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "The Friend",
+        "rating": 3.7,
+        "review_count": 159,
+        "address": "2611 Hyperion Ave, Silver Lake, CA 90027",
+        "city": "Silver Lake",
+        "zip_code": "90027",
+        "phone": "+13235226835",
+        "website": "https://www.yelp.com/biz/the-friend-silver-lake?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.1059534,
+            "longitude": -118.2728078
+        },
+        "categories": [
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "The Guest House",
+        "rating": 4.2,
+        "review_count": 411,
+        "address": "1750 Hillhurst Ave, Los Angeles, CA 90027",
+        "city": "Los Angeles",
+        "zip_code": "90027",
+        "phone": "+13236609930",
+        "website": "https://www.yelp.com/biz/the-guest-house-los-angeles-3?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.102896,
+            "longitude": -118.287191
+        },
+        "categories": [
+            "Cocktail Bars",
+            "New American",
+            "Venues & Event Spaces"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "FIVE on the Hill",
+        "rating": 3.6,
+        "review_count": 503,
+        "address": "555 Universal Hollywood Dr, Universal City, CA 91608",
+        "city": "Universal City",
+        "zip_code": "91608",
+        "phone": "+18185092066",
+        "website": "https://www.yelp.com/biz/five-on-the-hill-universal-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.136901,
+            "longitude": -118.358375
+        },
+        "categories": [
+            "Cocktail Bars",
+            "Breakfast & Brunch",
+            "Tapas/Small Plates"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "The Doughroom",
+        "rating": 4.0,
+        "review_count": 938,
+        "address": "3409 Overland Ave, Los Angeles, CA 90034",
+        "city": "Los Angeles",
+        "zip_code": "90034",
+        "phone": "+14242586194",
+        "website": "https://www.yelp.com/biz/the-doughroom-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0255407029642,
+            "longitude": -118.412643982327
+        },
+        "categories": [
+            "New American",
+            "Italian",
+            "Pizza"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Juquila",
+        "rating": 3.9,
+        "review_count": 158,
+        "address": "10022 Venice Blvd, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+13108412520",
+        "website": "https://www.yelp.com/biz/juquila-culver-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.022435,
+            "longitude": -118.3999679
+        },
+        "categories": [
+            "Mexican",
+            "Fast Food"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "High Rooftop Lounge",
+        "rating": 3.4,
+        "review_count": 1014,
+        "address": "1697 Pacific Ave, Venice, CA 90291",
+        "city": "Venice",
+        "zip_code": "90291",
+        "phone": "+13104521111",
+        "website": "https://www.yelp.com/biz/high-rooftop-lounge-venice?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.98714,
+            "longitude": -118.47209
+        },
+        "categories": [
+            "Lounges",
+            "New American",
+            "Venues & Event Spaces"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Bacari W 3rd",
+        "rating": 4.4,
+        "review_count": 1427,
+        "address": "8030 3/4 W 3rd St, Los Angeles, CA 90048",
+        "city": "Los Angeles",
+        "zip_code": "90048",
+        "phone": "+13239866763",
+        "website": "https://www.yelp.com/biz/bacari-w-3rd-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.071706,
+            "longitude": -118.36479
+        },
+        "categories": [
+            "New American",
+            "Breakfast & Brunch",
+            "Italian"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "The Brews Hall at Del Amo",
+        "rating": 4.1,
+        "review_count": 570,
+        "address": "21770 Del Amo Cir E, Torrance, CA 90503",
+        "city": "Torrance",
+        "zip_code": "90503",
+        "phone": "+13102949838",
+        "website": "https://www.yelp.com/biz/the-brews-hall-at-del-amo-torrance-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.8287216157355,
+            "longitude": -118.346411660314
+        },
+        "categories": [
+            "Breweries",
+            "Sports Bars",
+            "Chicken Wings"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Santa Monica Brew Works",
+        "rating": 4.1,
+        "review_count": 449,
+        "address": "1920 Colorado Ave, Ste C, Santa Monica, CA 90404",
+        "city": "Santa Monica",
+        "zip_code": "90404",
+        "phone": "+13108287629",
+        "website": "https://www.yelp.com/biz/santa-monica-brew-works-santa-monica?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.02527,
+            "longitude": -118.47694
+        },
+        "categories": [
+            "Venues & Event Spaces",
+            "Brewpubs",
+            "Pizza"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Casa Sanchez",
+        "rating": 4.1,
+        "review_count": 1646,
+        "address": "4500 S Centinela Ave, Los Angeles, CA 90066",
+        "city": "Los Angeles",
+        "zip_code": "90066",
+        "phone": "+13103979999",
+        "website": "https://www.yelp.com/biz/casa-sanchez-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.9927987,
+            "longitude": -118.4227098
+        },
+        "categories": [
+            "Mexican"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Manchego",
+        "rating": 4.4,
+        "review_count": 1237,
+        "address": "2518 Main St, Santa Monica, CA 90405",
+        "city": "Santa Monica",
+        "zip_code": "90405",
+        "phone": "+13104503900",
+        "website": "https://www.yelp.com/biz/manchego-santa-monica-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0027879,
+            "longitude": -118.4846414
+        },
+        "categories": [
+            "Spanish",
+            "Tapas Bars"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "HATCH",
+        "rating": 4.3,
+        "review_count": 1004,
+        "address": "700 W 7th St, Ste G600, Los Angeles, CA 90017",
+        "city": "Los Angeles",
+        "zip_code": "90017",
+        "phone": "+12132829070",
+        "website": "https://www.yelp.com/biz/hatch-los-angeles-3?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.04780882875867,
+            "longitude": -118.25870740363874
+        },
+        "categories": [
+            "Japanese",
+            "Tapas/Small Plates",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Bigfoot West",
+        "rating": 3.9,
+        "review_count": 785,
+        "address": "10939 Venice Blvd, Los Angeles, CA 90064",
+        "city": "Los Angeles",
+        "zip_code": "90064",
+        "phone": "+13102872200",
+        "website": "https://www.yelp.com/biz/bigfoot-west-los-angeles-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.0154657,
+            "longitude": -118.4130444
+        },
+        "categories": [
+            "Lounges"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "RYLA",
+        "rating": 4.4,
+        "review_count": 435,
+        "address": "1220 Hermosa Ave, Hermosa Beach, CA 90254",
+        "city": "Hermosa Beach",
+        "zip_code": "90254",
+        "phone": "+14242479881",
+        "website": "https://www.yelp.com/biz/ryla-hermosa-beach-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.86268,
+            "longitude": -118.39992
+        },
+        "categories": [
+            "Asian Fusion"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Idle Hour",
+        "rating": 4.0,
+        "review_count": 1442,
+        "address": "4824 N Vineland Ave, Los Angeles, CA 91601",
+        "city": "Los Angeles",
+        "zip_code": "91601",
+        "phone": "+13238310256",
+        "website": "https://www.yelp.com/biz/idle-hour-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.158376,
+            "longitude": -118.36992
+        },
+        "categories": [
+            "American",
+            "Bars",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Pizzana",
+        "rating": 4.0,
+        "review_count": 1193,
+        "address": "11712 San Vicente Blvd, Los Angeles, CA 90049",
+        "city": "Los Angeles",
+        "zip_code": "90049",
+        "phone": "+13104817108",
+        "website": "https://www.yelp.com/biz/pizzana-los-angeles-6?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.05311,
+            "longitude": -118.46596
+        },
+        "categories": [
+            "Salad",
+            "Pizza",
+            "Pasta Shops"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "3 And Out",
+        "rating": 4.4,
+        "review_count": 56,
+        "address": "244 S Market St, Inglewood, CA 90301",
+        "city": "Inglewood",
+        "zip_code": "90301",
+        "phone": "",
+        "website": "https://www.yelp.com/biz/3-and-out-inglewood?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.96088624041043,
+            "longitude": -118.35165147381817
+        },
+        "categories": [
+            "Sports Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Finney's Crafthouse - Burbank",
+        "rating": 4.3,
+        "review_count": 699,
+        "address": "164 East Palm Ave, Ste 102, Burbank, CA 91502",
+        "city": "Burbank",
+        "zip_code": "91502",
+        "phone": "+18185724610",
+        "website": "https://www.yelp.com/biz/finneys-crafthouse-burbank-burbank?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.181987,
+            "longitude": -118.310611
+        },
+        "categories": [
+            "New American",
+            "Burgers",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Ruth's Chris Steak House",
+        "rating": 3.8,
+        "review_count": 1199,
+        "address": "13455 Maxella Ave, Ste 230, Marina del Rey, CA 90292",
+        "city": "Marina del Rey",
+        "zip_code": "90292",
+        "phone": "+13108214593",
+        "website": "https://www.yelp.com/biz/ruths-chris-steak-house-marina-del-rey?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.986639,
+            "longitude": -118.442089
+        },
+        "categories": [
+            "Steakhouses",
+            "Seafood",
+            "Wine Bars"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Jonah's Kitchen + Bar",
+        "rating": 4.2,
+        "review_count": 349,
+        "address": "2518 Wilshire Blvd, Santa Monica, CA 90403",
+        "city": "Santa Monica",
+        "zip_code": "90403",
+        "phone": "+13104719200",
+        "website": "https://www.yelp.com/biz/jonahs-kitchen-bar-santa-monica?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.03563618,
+            "longitude": -118.47761957
+        },
+        "categories": [
+            "Latin American",
+            "Tiki Bars",
+            "Mexican"
+        ],
+        "price": "$$$"
+    },
+    {
+        "name": "Eddie V's Prime Seafood",
+        "rating": 4.3,
+        "review_count": 732,
+        "address": "2101 Rosecrans Ave, El Segundo, CA 90245",
+        "city": "El Segundo",
+        "zip_code": "90245",
+        "phone": "+13104140074",
+        "website": "https://www.yelp.com/biz/eddie-vs-prime-seafood-el-segundo?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.90257143040904,
+            "longitude": -118.38828195625796
+        },
+        "categories": [
+            "Seafood",
+            "Steakhouses",
+            "Lounges"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Bacari W Adams",
+        "rating": 4.2,
+        "review_count": 1848,
+        "address": "2308 S Union Ave, Los Angeles, CA 90007",
+        "city": "Los Angeles",
+        "zip_code": "90007",
+        "phone": "+13239866763",
+        "website": "https://www.yelp.com/biz/bacari-w-adams-los-angeles-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.034507,
+            "longitude": -118.283488
+        },
+        "categories": [
+            "Italian",
+            "Breakfast & Brunch",
+            "New American"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "The Well",
+        "rating": 3.9,
+        "review_count": 875,
+        "address": "6255 W Sunset Blvd, Ste 115, Los Angeles, CA 90028",
+        "city": "Los Angeles",
+        "zip_code": "90028",
+        "phone": "+13234679355",
+        "website": "https://www.yelp.com/biz/the-well-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.09871360510113,
+            "longitude": -118.32532302883554
+        },
+        "categories": [
+            "Lounges",
+            "Cocktail Bars"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Re/creation Cafe",
+        "rating": 4.7,
+        "review_count": 129,
+        "address": "4500 W Washington Blvd, Los Angeles, CA 90016",
+        "city": "Los Angeles",
+        "zip_code": "90016",
+        "phone": "+13238799179",
+        "website": "https://www.yelp.com/biz/re-creation-cafe-los-angeles-4?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.039698,
+            "longitude": -118.33790738590238
+        },
+        "categories": [
+            "Cafes"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Lavender Blue",
+        "rating": 4.1,
+        "review_count": 94,
+        "address": "3310 W Manchester Blvd, Inglewood, CA 90305",
+        "city": "Inglewood",
+        "zip_code": "90305",
+        "phone": "+14242276712",
+        "website": "https://www.yelp.com/biz/lavender-blue-inglewood?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.9597751,
+            "longitude": -118.3293256
+        },
+        "categories": [
+            "Bars",
+            "Jazz & Blues",
+            "Venues & Event Spaces"
+        ],
+        "price": "$"
+    },
+    {
+        "name": "Brizo Bar & Restaurant",
+        "rating": 3.6,
+        "review_count": 362,
+        "address": "4360 Via Marina, Marina del Rey, CA 90292",
+        "city": "Marina del Rey",
+        "zip_code": "90292",
+        "phone": "+14244435807",
+        "website": "https://www.yelp.com/biz/brizo-bar-and-restaurant-marina-del-rey?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.97505867390809,
+            "longitude": -118.4582984705522
+        },
+        "categories": [
+            "New American",
+            "Breakfast & Brunch",
+            "Cocktail Bars"
+        ],
+        "price": "N/A"
+    },
+    {
+        "name": "Dan Sung Sa",
+        "rating": 3.9,
+        "review_count": 1505,
+        "address": "3317 W 6th St, Los Angeles, CA 90020",
+        "city": "Los Angeles",
+        "zip_code": "90020",
+        "phone": "+12134879100",
+        "website": "https://www.yelp.com/biz/dan-sung-sa-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.063852,
+            "longitude": -118.294609
+        },
+        "categories": [
+            "Korean",
+            "Tapas/Small Plates",
+            "Gastropubs"
+        ],
+        "price": "$$"
+    },
+    {
+        "name": "Salt & Pearl",
+        "rating": 4.4,
+        "review_count": 162,
+        "address": "1719 S Catalina Ave, Redondo Beach, CA 90277",
+        "city": "Redondo Beach",
+        "zip_code": "90277",
+        "phone": "+13103720122",
+        "website": "https://www.yelp.com/biz/salt-and-pearl-redondo-beach?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.817709,
+            "longitude": -118.388224
+        },
+        "categories": [
+            "Seafood",
+            "Cocktail Bars"
+        ],
+        "price": "$$$"
+    }
+]
