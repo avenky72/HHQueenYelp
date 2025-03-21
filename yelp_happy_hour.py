@@ -3,7 +3,7 @@ import json
 import argparse
 from datetime import datetime
 
-def search_businesses(eGU2qoxtM-LNjwtaQEdBE4NOgqRz1Se5s2iCZWovw-RCh8gA8bHYlLc4Iy1T2QsX7TKe1xALV3gcVDclIgEhf2Kb785gcoYUpe_8_OkwO4I2ieGvXomtekp3EnHcZ3Yx, latitude, longitude, radius_miles=25, term="happy hour", limit=50):
+def search_businesses(api_key, latitude, longitude, radius_miles=25, term="happy hour", limit=50):
     """
     Search for businesses on Yelp based on location and search term.
     
