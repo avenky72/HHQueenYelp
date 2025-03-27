@@ -42,7 +42,9 @@ def search_businesses(api_key, latitude, longitude, radius_miles=25, term="happy
             "radius": radius_meters,
             "categories": "restaurants,bars",
             "limit": limit,
-            "offset": offset
+            "offset": offset,
+            # Add attributes to help with filtering
+            "attributes": "dogs_allowed,hot_and_new,good_for_kids"
         }
         
         response = requests.get(url, headers=headers, params=params)
@@ -75,19 +77,77 @@ def search_businesses(api_key, latitude, longitude, radius_miles=25, term="happy
     
     return all_businesses
 
-def extract_business_info(businesses):
+def get_business_details(api_key, business_id):
+    """
+    Get detailed information about a business from Yelp API.
+    
+    Args:
+        api_key (str): Your Yelp Fusion API key
+        business_id (str): Yelp business ID
+        
+    Returns:
+        dict: Detailed business information
+    """
+    url = f"https://api.yelp.com/v3/businesses/{business_id}"
+    
+    headers = {
+        "Authorization": f"Bearer {api_key}"
+    }
+    
+    response = requests.get(url, headers=headers)
+    
+    if response.status_code == 200:
+        return response.json()
+    else:
+        print(f"Error getting details for business {business_id}: {response.status_code}")
+        print(response.text)
+        return {}
+
+def extract_business_info(businesses, api_key):
     """
     Extract relevant information from businesses.
     
     Args:
         businesses (list): List of business data from Yelp API
+        api_key (str): Your Yelp Fusion API key
         
     Returns:
         list: List of dictionaries with extracted business information
     """
     business_info = []
     
-    for business in businesses:
+    for i, business in enumerate(businesses):
+        business_id = business.get("id")
+        print(f"Getting details for business {i+1}/{len(businesses)}: {business.get('name')}")
+        
+        # Get additional details for this business
+        details = get_business_details(api_key, business_id)
+        
+        # Extract attributes from details
+        attributes = {}
+        if details:
+            attributes = details.get("attributes", {})
+        
+        # Check if dogs are allowed
+        dogs_allowed = "Unknown"
+        if "DogsAllowed" in attributes:
+            dogs_option = attributes.get("DogsAllowed", {}).get("value_type", "")
+            if dogs_option in ["yes_free", "yes"]:
+                dogs_allowed = "Yes"
+            elif dogs_option == "yes_paid":
+                dogs_allowed = "Yes (Paid)"
+            else:
+                dogs_allowed = "No"
+        
+        # Check if good for kids
+        good_for_kids = "Unknown"
+        if "GoodForKids" in attributes:
+            kids_option = attributes.get("GoodForKids", {}).get("value_type", "")
+            if kids_option in ["yes_free", "yes"]:
+                good_for_kids = "Yes"
+            else:
+                good_for_kids = "No"
+        
         info = {
             "name": business.get("name"),
             "rating": business.get("rating"),
@@ -99,7 +159,9 @@ def extract_business_info(businesses):
             "website": business.get("url"),
             "coordinates": business.get("coordinates"),
             "categories": [category.get("title") for category in business.get("categories", [])],
-            "price": business.get("price", "N/A")
+            "price": business.get("price", "N/A"),
+            "dogs_allowed": dogs_allowed,
+            "good_for_kids": good_for_kids
         }
         business_info.append(info)
     
@@ -147,7 +209,7 @@ def main():
     
     print(f"Found {len(businesses)} businesses")
     
-    business_info = extract_business_info(businesses)
+    business_info = extract_business_info(businesses, args.api_key)
     
     filename = save_to_json(business_info, args.output)
     print(f"Business information saved to {filename}")

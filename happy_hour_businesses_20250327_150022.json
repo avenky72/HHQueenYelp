@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Made Burgers",
+        "rating": 4.5,
+        "review_count": 22,
+        "address": "1425 W Redondo Beach Blvd, Gardena, CA 90247",
+        "city": "Gardena",
+        "zip_code": "90247",
+        "phone": "+13105281159",
+        "website": "https://www.yelp.com/biz/made-burgers-gardena?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.891283110494975,
+            "longitude": -118.3015158
+        },
+        "categories": [
+            "American"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown",
+        "has_happy_hour": "Unknown",
+        "happy_hour_details": ""
+    },
+    {
+        "name": "Zinque",
+        "rating": 3.4,
+        "review_count": 79,
+        "address": "2809 Agoura Rd, Westlake Village, CA 91361",
+        "city": "Westlake Village",
+        "zip_code": "91361",
+        "phone": "+18054187127",
+        "website": "https://www.yelp.com/biz/zinque-westlake-village-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 34.150304,
+            "longitude": -118.823934
+        },
+        "categories": [
+            "French",
+            "Breakfast & Brunch",
+            "Cocktail Bars"
+        ],
+        "price": "N/A",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown",
+        "has_happy_hour": "Unknown",
+        "happy_hour_details": ""
+    },
+    {
+        "name": "Kiwami Ramen",
+        "rating": 5.0,
+        "review_count": 4,
+        "address": "5145 Warner Ave, Huntington Beach, CA 92649",
+        "city": "Huntington Beach",
+        "zip_code": "92649",
+        "phone": "+16264251072",
+        "website": "https://www.yelp.com/biz/kiwami-ramen-huntington-beach-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "coordinates": {
+            "latitude": 33.715854,
+            "longitude": -118.038912
+        },
+        "categories": [
+            "Japanese",
+            "Sushi Bars",
+            "Beer, Wine & Spirits"
+        ],
+        "price": "N/A",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown",
+        "has_happy_hour": "Unknown",
+        "happy_hour_details": ""
+    }
+]
