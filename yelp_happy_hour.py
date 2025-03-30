@@ -2,6 +2,9 @@ import requests
 import json
 import argparse
 from datetime import datetime
+import re
+from bs4 import BeautifulSoup
+import time
 
 def search_businesses(api_key, latitude, longitude, radius_miles=25, term="happy hour", limit=50):
     """
@@ -21,19 +24,18 @@ def search_businesses(api_key, latitude, longitude, radius_miles=25, term="happy
     # Convert miles to meters for the Yelp API, capping at 40000 meters
     radius_meters = min(int(radius_miles * 1609.34), 40000)
     
-    # Yelp API endpoint
     url = "https://api.yelp.com/v3/businesses/search"
     
     headers = {
         "Authorization": f"Bearer {api_key}"
     }
     
-    # Initialize results list and offset
+
     all_businesses = []
     offset = 0
     total_fetched = 0
     
-    # Yelp API allows a maximum of 1000 results (50 per request with a maximum of 20 requests)
+
     while True:
         params = {
             "term": term,
@@ -43,19 +45,19 @@ def search_businesses(api_key, latitude, longitude, radius_miles=25, term="happy
             "categories": "restaurants,bars",
             "limit": limit,
             "offset": offset,
-            # Add attributes to help with filtering
+
             "attributes": "dogs_allowed,hot_and_new,good_for_kids"
         }
         
         response = requests.get(url, headers=headers, params=params)
         
-        # Check if the request was successful
+
         if response.status_code == 200:
             data = response.json()
             businesses = data.get("businesses", [])
             total = data.get("total", 0)
             
-            # No more results
+
             if not businesses:
                 break
                 
@@ -64,11 +66,12 @@ def search_businesses(api_key, latitude, longitude, radius_miles=25, term="happy
             
             print(f"Fetched {total_fetched} of {total} businesses...")
             
-            # If we've fetched all available businesses or reached Yelp's limit
+
+
             if total_fetched >= total or total_fetched >= 1000:
                 break
                 
-            # Increment offset for next request
+
             offset += limit
         else:
             print(f"Error: {response.status_code}")
@@ -103,6 +106,54 @@ def get_business_details(api_key, business_id):
         print(response.text)
         return {}
 
+def scrape_website_url(yelp_url):
+    """
+    Scrape the actual website URL from the Yelp business page.
+    
+    Args:
+        yelp_url (str): URL of the Yelp business page
+        
+    Returns:
+        str: The business's actual website URL or empty string if not found
+    """
+    try:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        }
+        
+        response = requests.get(yelp_url, headers=headers, timeout=10)
+        
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # Look for "website" button which contains the URL
+            website_element = soup.find('a', href=re.compile(r'https://www.yelp.com/biz_redir\?url=http'))
+            
+            if website_element and 'href' in website_element.attrs:
+                redirect_url = website_element['href']
+                
+
+                match = re.search(r'url=(.*?)&', redirect_url)
+                if match:
+
+                    import urllib.parse
+                    return urllib.parse.unquote(match.group(1))
+            
+
+            for a_tag in soup.find_all('a'):
+                if a_tag.text and 'website' in a_tag.text.lower():
+                    if 'href' in a_tag.attrs:
+                        redirect_url = a_tag['href']
+                        match = re.search(r'url=(.*?)&', redirect_url)
+                        if match:
+                            import urllib.parse
+                            return urllib.parse.unquote(match.group(1))
+        
+        return ""
+    except Exception as e:
+        print(f"Error scraping website URL: {e}")
+        return ""
+
 def extract_business_info(businesses, api_key):
     """
     Extract relevant information from businesses.
@@ -120,15 +171,15 @@ def extract_business_info(businesses, api_key):
         business_id = business.get("id")
         print(f"Getting details for business {i+1}/{len(businesses)}: {business.get('name')}")
         
-        # Get additional details for this business
+
         details = get_business_details(api_key, business_id)
         
-        # Extract attributes from details
+
         attributes = {}
         if details:
             attributes = details.get("attributes", {})
         
-        # Check if dogs are allowed
+
         dogs_allowed = "Unknown"
         if "DogsAllowed" in attributes:
             dogs_option = attributes.get("DogsAllowed", {}).get("value_type", "")
@@ -139,7 +190,8 @@ def extract_business_info(businesses, api_key):
             else:
                 dogs_allowed = "No"
         
-        # Check if good for kids
+
+
         good_for_kids = "Unknown"
         if "GoodForKids" in attributes:
             kids_option = attributes.get("GoodForKids", {}).get("value_type", "")
@@ -147,6 +199,21 @@ def extract_business_info(businesses, api_key):
                 good_for_kids = "Yes"
             else:
                 good_for_kids = "No"
+        
+
+        yelp_url = business.get("url", "")
+        
+        # Try to get website from API first
+        website_url = ""
+        if details and "url" in details:
+            website_url = details.get("url", "")
+        
+        # If API didn't provide website or it's just the Yelp URL, try scraping
+        if not website_url or "yelp.com" in website_url:
+            print(f"  Scraping website URL for {business.get('name')}...")
+            website_url = scrape_website_url(yelp_url)
+            # Add a small delay to avoid overloading Yelp's servers
+            time.sleep(1)
         
         info = {
             "name": business.get("name"),
@@ -156,7 +223,8 @@ def extract_business_info(businesses, api_key):
             "city": business.get("location", {}).get("city"),
             "zip_code": business.get("location", {}).get("zip_code"),
             "phone": business.get("phone"),
-            "website": business.get("url"),
+            "yelp_url": yelp_url,
+            "website": website_url,
             "coordinates": business.get("coordinates"),
             "categories": [category.get("title") for category in business.get("categories", [])],
             "price": business.get("price", "N/A"),
