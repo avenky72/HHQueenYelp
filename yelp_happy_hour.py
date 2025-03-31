@@ -1,16 +1,27 @@
-import requests
-import json
 import argparse
-from datetime import datetime
+import os
 import re
-from bs4 import BeautifulSoup
 import time
 import urllib.parse
+<<<<<<< HEAD
 
 def search_businesses(api_key, latitude, longitude, radius_miles=15, term="bar restaurant", limit=50):
+=======
+from datetime import datetime
+
+import pandas as pd
+import requests
+import undetected_chromedriver as uc
+from bs4 import BeautifulSoup
+
+
+def search_businesses(
+    api_key, latitude, longitude, radius_miles=25, term="happy hour", limit=50
+):
+>>>>>>> 8e987f61056ef5b1ca8d1feb3453c4a1c142b608
     """
     Search for businesses on Yelp based on location and search term.
-    
+
     Args:
         api_key (str): Your Yelp Fusion API key
         latitude (float): Latitude of the center point
@@ -18,14 +29,15 @@ def search_businesses(api_key, latitude, longitude, radius_miles=15, term="bar r
         radius_miles (int): Search radius in miles (max 24.85 miles for Yelp API)
         term (str): Search term, e.g., "bar restaurant"
         limit (int): Number of results per request (max 50 for Yelp API)
-        
+
     Returns:
         list: List of businesses matching the search criteria
     """
     # Convert miles to meters for the Yelp API, capping at 40000 meters
     radius_meters = min(int(radius_miles * 1609.34), 40000)
-    
+
     url = "https://api.yelp.com/v3/businesses/search"
+<<<<<<< HEAD
     
     headers = {
         "Authorization": f"Bearer {api_key}"
@@ -38,6 +50,15 @@ def search_businesses(api_key, latitude, longitude, radius_miles=15, term="bar r
     # Broader categories that include all restaurants and bars
     categories = "restaurants,bars,food,nightlife"
     
+=======
+
+    headers = {"Authorization": f"Bearer {api_key}"}
+
+    all_businesses = []
+    offset = 0
+    total_fetched = 0
+
+>>>>>>> 8e987f61056ef5b1ca8d1feb3453c4a1c142b608
     while True:
         params = {
             "term": term,
@@ -47,72 +68,90 @@ def search_businesses(api_key, latitude, longitude, radius_miles=15, term="bar r
             "categories": categories,
             "limit": limit,
             "offset": offset,
+<<<<<<< HEAD
             "attributes": "dogs_allowed,good_for_kids"
+=======
+            "attributes": "dogs_allowed,hot_and_new,good_for_kids",
+>>>>>>> 8e987f61056ef5b1ca8d1feb3453c4a1c142b608
         }
-        
+
         response = requests.get(url, headers=headers, params=params)
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 8e987f61056ef5b1ca8d1feb3453c4a1c142b608
         if response.status_code == 200:
             data = response.json()
             businesses = data.get("businesses", [])
             total = data.get("total", 0)
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 8e987f61056ef5b1ca8d1feb3453c4a1c142b608
             if not businesses:
                 break
-                
+
             all_businesses.extend(businesses)
             total_fetched += len(businesses)
+<<<<<<< HEAD
             
             print(f"Fetched {total_fetched} of {total} businesses...")
             
             if total_fetched >= total or total_fetched >= 1000:
                 break
                 
+=======
+
+            print(f"Fetched {total_fetched} of {total} businesses...")
+
+            if total_fetched >= total or total_fetched >= 1000:
+                break
+
+>>>>>>> 8e987f61056ef5b1ca8d1feb3453c4a1c142b608
             offset += limit
         else:
             print(f"Error: {response.status_code}")
             print(response.text)
             break
-    
+
     return all_businesses
+
 
 def get_business_details(api_key, business_id):
     """
     Get detailed information about a business from Yelp API.
-    
+
     Args:
         api_key (str): Your Yelp Fusion API key
         business_id (str): Yelp business ID
-        
+
     Returns:
         dict: Detailed business information
     """
     url = f"https://api.yelp.com/v3/businesses/{business_id}"
-    
-    headers = {
-        "Authorization": f"Bearer {api_key}"
-    }
-    
+
+    headers = {"Authorization": f"Bearer {api_key}"}
+
     response = requests.get(url, headers=headers)
-    
+
     if response.status_code == 200:
         return response.json()
     else:
-        print(f"Error getting details for business {business_id}: {response.status_code}")
+        print(
+            f"Error getting details for business {business_id}: {response.status_code}"
+        )
         print(response.text)
         return {}
 
+
 def scrape_website_url(yelp_url):
     """
-    Scrape the actual website URL from the Yelp business page.
-    
-    Args:
-        yelp_url (str): URL of the Yelp business page
-        
-    Returns:
-        str: The business's actual website URL or empty string if not found
+    Scrape and clean the actual website URL from a Yelp business page using Selenium.
     """
     try:
+<<<<<<< HEAD
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
         }
@@ -150,26 +189,71 @@ def scrape_website_url(yelp_url):
                     except:
                         pass
         
+=======
+        # Start a headless browser
+        options = uc.ChromeOptions()
+        # options.headless = True
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-blink-features=AutomationControlled")
+        driver = uc.Chrome(options=options)
+
+        driver.get(yelp_url)
+        time.sleep(3)  # Give it a moment to load dynamic content
+
+        soup = BeautifulSoup(driver.page_source, "html.parser")
+        driver.quit()
+
+        outer_div = soup.find("div", class_="y-css-4cg16w")
+        if not outer_div:
+            print("Outer div not found")
+            return ""
+
+        link_tag = outer_div.find("a", class_="y-css-14cka3", href=True)
+        if not link_tag:
+            print("Link tag not found")
+            return ""
+
+        redirect_url = link_tag["href"]
+        match = re.search(r"url=(.*?)&", redirect_url)
+        if not match:
+            print("No URL found in redirect")
+            return ""
+
+        raw_url = urllib.parse.unquote(match.group(1))
+        parsed_url = urllib.parse.urlparse(raw_url)
+        clean_url = (
+            f"{parsed_url.scheme}://{parsed_url.netloc}{parsed_url.path}".rstrip("/")
+        )
+
+        print(f"Scraped: {clean_url}")
+        return clean_url
+
+    except Exception as e:
+        print(f"Error scraping website URL with Selenium: {e}")
+>>>>>>> 8e987f61056ef5b1ca8d1feb3453c4a1c142b608
         return ""
+
     except Exception as e:
         print(f"Error scraping website URL: {e}")
         return ""
 
+
 def extract_business_info(businesses, api_key):
     """
     Extract relevant information from businesses.
-    
+
     Args:
         businesses (list): List of business data from Yelp API
         api_key (str): Your Yelp Fusion API key
-        
+
     Returns:
         list: List of dictionaries with extracted business information
     """
     business_info = []
-    
+
     for i, business in enumerate(businesses):
         business_id = business.get("id")
+<<<<<<< HEAD
         business_name = business.get("name")
         print(f"Getting details for business {i+1}/{len(businesses)}: {business_name}")
         
@@ -182,6 +266,18 @@ def extract_business_info(businesses, api_key):
             attributes = details.get("attributes", {})
         
         # Check if dogs are allowed
+=======
+        print(
+            f"Getting details for business {i+1}/{len(businesses)}: {business.get('name')}"
+        )
+
+        details = get_business_details(api_key, business_id)
+
+        attributes = {}
+        if details:
+            attributes = details.get("attributes", {})
+
+>>>>>>> 8e987f61056ef5b1ca8d1feb3453c4a1c142b608
         dogs_allowed = "Unknown"
         if "DogsAllowed" in attributes:
             dogs_option = attributes.get("DogsAllowed", {}).get("value_type", "")
@@ -191,8 +287,12 @@ def extract_business_info(businesses, api_key):
                 dogs_allowed = "Yes (Paid)"
             else:
                 dogs_allowed = "No"
+<<<<<<< HEAD
         
         # Check if good for kids
+=======
+
+>>>>>>> 8e987f61056ef5b1ca8d1feb3453c4a1c142b608
         good_for_kids = "Unknown"
         if "GoodForKids" in attributes:
             kids_option = attributes.get("GoodForKids", {}).get("value_type", "")
@@ -200,21 +300,26 @@ def extract_business_info(businesses, api_key):
                 good_for_kids = "Yes"
             else:
                 good_for_kids = "No"
+<<<<<<< HEAD
         
         # Get the Yelp URL
+=======
+
+>>>>>>> 8e987f61056ef5b1ca8d1feb3453c4a1c142b608
         yelp_url = business.get("url", "")
-        
+
         # Try to get website from API first
         website_url = ""
         if details and "url" in details:
             website_url = details.get("url", "")
-        
+
         # If API didn't provide website or it's just the Yelp URL, try scraping
         if not website_url or "yelp.com" in website_url:
             print(f"  Scraping website URL for {business_name}...")
             website_url = scrape_website_url(yelp_url)
             # Add a small delay to avoid overloading Yelp's servers
             time.sleep(1)
+<<<<<<< HEAD
         
         # Only include businesses where we successfully found a website URL
         if website_url and "yelp.com" not in website_url:
@@ -250,56 +355,109 @@ def extract_business_info(businesses, api_key):
         else:
             print(f"  ✗ Skipped {business_name} - No website found")
     
+=======
+
+        info = {
+            "name": business.get("name"),
+            "rating": business.get("rating"),
+            "review_count": business.get("review_count"),
+            "address": ", ".join(
+                business.get("location", {}).get("display_address", [])
+            ),
+            "city": business.get("location", {}).get("city"),
+            "zip_code": business.get("location", {}).get("zip_code"),
+            "phone": business.get("phone"),
+            "yelp_url": yelp_url,
+            "website": website_url,
+            "coordinates": business.get("coordinates"),
+            "categories": [
+                category.get("title") for category in business.get("categories", [])
+            ],
+            "price": business.get("price", "N/A"),
+            "dogs_allowed": dogs_allowed,
+            "good_for_kids": good_for_kids,
+        }
+        business_info.append(info)
+
+>>>>>>> 8e987f61056ef5b1ca8d1feb3453c4a1c142b608
     return business_info
 
-def save_to_json(data, filename=None):
+
+def save_to_csv(data, filename=None):
     """
-    Save data to a JSON file.
-    
+    Save data to a CSV file in the 'dat' folder.
+
     Args:
         data (list): Data to save
-        filename (str, optional): Filename to save to. If None, generates a timestamped filename.
-        
+        filename (str, optional): Base filename (with or without .csv). If None, generates a timestamped filename.
+
     Returns:
-        str: Filename where data was saved
+        str: Full path to the saved CSV file
     """
+    os.makedirs("dat", exist_ok=True)
+
     if filename is None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"happy_hour_businesses_{timestamp}.json"
-    
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4)
-    
-    return filename
+        filename = f"happy_hour_businesses_{timestamp}.csv"
+    elif not filename.endswith(".csv"):
+        filename += ".csv"
+
+    filepath = os.path.join("dat", filename)
+
+    try:
+        df = pd.DataFrame(data)
+        df.to_csv(filepath, index=False)
+        return filepath
+    except Exception as e:
+        print(f"Error saving CSV: {e}")
+        return None
+
 
 def main():
-    parser = argparse.ArgumentParser(description="Search for happy hour businesses on Yelp")
+    parser = argparse.ArgumentParser(
+        description="Search for happy hour businesses on Yelp"
+    )
     parser.add_argument("--api-key", required=True, help="Yelp Fusion API key")
+<<<<<<< HEAD
     parser.add_argument("--latitude", required=True, type=float, help="Latitude of the center point")
     parser.add_argument("--longitude", required=True, type=float, help="Longitude of the center point")
     parser.add_argument("--radius", type=int, default=15, help="Search radius in miles (max 24.85)")
     parser.add_argument("--term", default="bar restaurant", help="Search term")
+=======
+    parser.add_argument(
+        "--latitude", required=True, type=float, help="Latitude of the center point"
+    )
+    parser.add_argument(
+        "--longitude", required=True, type=float, help="Longitude of the center point"
+    )
+    parser.add_argument(
+        "--radius", type=int, default=24, help="Search radius in miles (max 24.85)"
+    )
+    parser.add_argument("--term", default="happy hour", help="Search term")
+>>>>>>> 8e987f61056ef5b1ca8d1feb3453c4a1c142b608
     parser.add_argument("--output", help="Output filename")
-    
+
     args = parser.parse_args()
-    
+
     print(f"Searching for '{args.term}' businesses within {args.radius} miles...")
     businesses = search_businesses(
-        args.api_key, 
-        args.latitude, 
-        args.longitude, 
-        args.radius, 
-        args.term
+        args.api_key, args.latitude, args.longitude, args.radius, args.term
     )
-    
+
     print(f"Found {len(businesses)} businesses")
-    
+
     business_info = extract_business_info(businesses, args.api_key)
+<<<<<<< HEAD
     
     print(f"Successfully extracted website URLs for {len(business_info)} of {len(businesses)} businesses")
     
     filename = save_to_json(business_info, args.output)
+=======
+
+    filename = save_to_csv(business_info, args.output)
+>>>>>>> 8e987f61056ef5b1ca8d1feb3453c4a1c142b608
     print(f"Business information saved to {filename}")
+
 
 if __name__ == "__main__":
     main()
