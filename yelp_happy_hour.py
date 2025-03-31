@@ -1,13 +1,14 @@
 import argparse
-import json
 import os
-from datetime import datetime
 import re
-from bs4 import BeautifulSoup
 import time
+import urllib.parse
+from datetime import datetime
 
 import pandas as pd
 import requests
+import undetected_chromedriver as uc
+from bs4 import BeautifulSoup
 
 
 def search_businesses(
@@ -106,50 +107,51 @@ def get_business_details(api_key, business_id):
 
 def scrape_website_url(yelp_url):
     """
-    Scrape the actual website URL from the Yelp business page.
-
-    Args:
-        yelp_url (str): URL of the Yelp business page
-
-    Returns:
-        str: The business's actual website URL or empty string if not found
+    Scrape and clean the actual website URL from a Yelp business page using Selenium.
     """
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
+        # Start a headless browser
+        options = uc.ChromeOptions()
+        # options.headless = True
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-blink-features=AutomationControlled")
+        driver = uc.Chrome(options=options)
 
-        response = requests.get(yelp_url, headers=headers, timeout=10)
+        driver.get(yelp_url)
+        time.sleep(3)  # Give it a moment to load dynamic content
 
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.text, "html.parser")
+        soup = BeautifulSoup(driver.page_source, "html.parser")
+        driver.quit()
 
-            # Look for "website" button which contains the URL
-            website_element = soup.find(
-                "a", href=re.compile(r"https://www.yelp.com/biz_redir\?url=http")
-            )
+        outer_div = soup.find("div", class_="y-css-4cg16w")
+        if not outer_div:
+            print("Outer div not found")
+            return ""
 
-            if website_element and "href" in website_element.attrs:
-                redirect_url = website_element["href"]
+        link_tag = outer_div.find("a", class_="y-css-14cka3", href=True)
+        if not link_tag:
+            print("Link tag not found")
+            return ""
 
-                match = re.search(r"url=(.*?)&", redirect_url)
-                if match:
+        redirect_url = link_tag["href"]
+        match = re.search(r"url=(.*?)&", redirect_url)
+        if not match:
+            print("No URL found in redirect")
+            return ""
 
-                    import urllib.parse
+        raw_url = urllib.parse.unquote(match.group(1))
+        parsed_url = urllib.parse.urlparse(raw_url)
+        clean_url = (
+            f"{parsed_url.scheme}://{parsed_url.netloc}{parsed_url.path}".rstrip("/")
+        )
 
-                    return urllib.parse.unquote(match.group(1))
+        print(f"Scraped: {clean_url}")
+        return clean_url
 
-            for a_tag in soup.find_all("a"):
-                if a_tag.text and "website" in a_tag.text.lower():
-                    if "href" in a_tag.attrs:
-                        redirect_url = a_tag["href"]
-                        match = re.search(r"url=(.*?)&", redirect_url)
-                        if match:
-                            import urllib.parse
-
-                            return urllib.parse.unquote(match.group(1))
-
+    except Exception as e:
+        print(f"Error scraping website URL with Selenium: {e}")
         return ""
+
     except Exception as e:
         print(f"Error scraping website URL: {e}")
         return ""
