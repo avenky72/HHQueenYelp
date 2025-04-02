@@ -1,0 +1,255 @@
+[
+    {
+        "name": "Lobster Guys Rolls & Fries",
+        "rating": 4.6,
+        "review_count": 386,
+        "address": "2217 Artesia Blvd, Redondo Beach, CA 90278",
+        "city": "Redondo Beach",
+        "zip_code": "90278",
+        "phone": "+13109218427",
+        "yelp_url": "https://www.yelp.com/biz/lobster-guys-rolls-and-fries-redondo-beach?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://lobsterguys.com/woodland-hills-woodland-hills-lobster-guys-rolls-and-fries-food-menu",
+        "coordinates": {
+            "latitude": 33.873093,
+            "longitude": -118.371017
+        },
+        "categories": [
+            "Beer Bar",
+            "Seafood",
+            "Sports Bars"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "Stanley's Wet Goods",
+        "rating": 4.4,
+        "review_count": 161,
+        "address": "9620 Venice Blvd, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+14243412870",
+        "yelp_url": "https://www.yelp.com/biz/stanleys-wet-goods-culver-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://www.stanleys.la",
+        "coordinates": {
+            "latitude": 34.02441,
+            "longitude": -118.39618
+        },
+        "categories": [
+            "Wine Bars",
+            "Beer, Wine & Spirits",
+            "Coffee & Tea"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "SoCal Vibes",
+        "rating": 4.3,
+        "review_count": 288,
+        "address": "17812 S Main St, Carson, CA 90248",
+        "city": "Carson",
+        "zip_code": "90248",
+        "phone": "+14242923153",
+        "yelp_url": "https://www.yelp.com/biz/socal-vibes-carson-10?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://www.socalvibesco.com/eats",
+        "coordinates": {
+            "latitude": 33.8688770655701,
+            "longitude": -118.27505047061936
+        },
+        "categories": [
+            "Breweries",
+            "New American",
+            "Venues & Event Spaces"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "AFURI",
+        "rating": 4.3,
+        "review_count": 267,
+        "address": "9300 Culver Blvd, Unit 117, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+14242988292",
+        "yelp_url": "https://www.yelp.com/biz/afuri-culver-city-7?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://www.afuriramen.com/online-ordering",
+        "coordinates": {
+            "latitude": 34.024357329741484,
+            "longitude": -118.39348349946758
+        },
+        "categories": [
+            "Ramen",
+            "Cocktail Bars",
+            "Sushi Bars"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "Finney's Crafthouse - Burbank",
+        "rating": 4.3,
+        "review_count": 699,
+        "address": "164 East Palm Ave, Ste 102, Burbank, CA 91502",
+        "city": "Burbank",
+        "zip_code": "91502",
+        "phone": "+18185724610",
+        "yelp_url": "https://www.yelp.com/biz/finneys-crafthouse-burbank-burbank?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://www.finneyscrafthouse.com/burbank/",
+        "coordinates": {
+            "latitude": 34.181987,
+            "longitude": -118.310611
+        },
+        "categories": [
+            "New American",
+            "Burgers",
+            "Cocktail Bars"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "The Misfit Restaurant + Bar",
+        "rating": 4.2,
+        "review_count": 4653,
+        "address": "225 Santa Monica Blvd, Santa Monica, CA 90401",
+        "city": "Santa Monica",
+        "zip_code": "90401",
+        "phone": "+13106569800",
+        "yelp_url": "https://www.yelp.com/biz/the-misfit-restaurant-bar-santa-monica?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://themisfitbar.com/#menus",
+        "coordinates": {
+            "latitude": 34.015401,
+            "longitude": -118.496658
+        },
+        "categories": [
+            "Bars",
+            "New American",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "33 Taps -  Culver City",
+        "rating": 4.2,
+        "review_count": 208,
+        "address": "9739 Culver Blvd, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+13108389739",
+        "yelp_url": "https://www.yelp.com/biz/33-taps-culver-city-culver-city-6?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "http://www.eatdrink33.com/menu",
+        "coordinates": {
+            "latitude": 34.021909,
+            "longitude": -118.39656
+        },
+        "categories": [
+            "Sports Bars",
+            "Burgers",
+            "Vegan"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "The Guest House",
+        "rating": 4.2,
+        "review_count": 412,
+        "address": "1750 Hillhurst Ave, Los Angeles, CA 90027",
+        "city": "Los Angeles",
+        "zip_code": "90027",
+        "phone": "+13236609930",
+        "yelp_url": "https://www.yelp.com/biz/the-guest-house-los-angeles-3?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://www.theguesthousela.com/menu",
+        "coordinates": {
+            "latitude": 34.102896,
+            "longitude": -118.287191
+        },
+        "categories": [
+            "Cocktail Bars",
+            "New American",
+            "Venues & Event Spaces"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "Venice Beach Bar & Kitchen",
+        "rating": 4.1,
+        "review_count": 182,
+        "address": "323 Ocean Front Walk, Venice, CA 90291",
+        "city": "Venice",
+        "zip_code": "90291",
+        "phone": "+13103923997",
+        "yelp_url": "https://www.yelp.com/biz/venice-beach-bar-and-kitchen-venice?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "http://thevenicebeachbar.com/menus/",
+        "coordinates": {
+            "latitude": 33.9941813,
+            "longitude": -118.479844
+        },
+        "categories": [
+            "Dive Bars",
+            "Music Venues",
+            "American"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "Simonette",
+        "rating": 4.1,
+        "review_count": 579,
+        "address": "3927 Van Buren Pl, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+14243218000",
+        "yelp_url": "https://www.yelp.com/biz/simonette-culver-city-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://www.simonetterestaurant.com",
+        "coordinates": {
+            "latitude": 34.0229299260707,
+            "longitude": -118.393480069935
+        },
+        "categories": [
+            "French",
+            "Cafes",
+            "Bars"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "Melody Bar and Grill",
+        "rating": 3.9,
+        "review_count": 997,
+        "address": "9132 S Sepulveda Blvd, Los Angeles, CA 90045",
+        "city": "Los Angeles",
+        "zip_code": "90045",
+        "phone": "+13106701994",
+        "yelp_url": "https://www.yelp.com/biz/melody-bar-and-grill-los-angeles-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://www.melodylax.com/menu/menu/",
+        "coordinates": {
+            "latitude": 33.9537242,
+            "longitude": -118.3959079
+        },
+        "categories": [
+            "Bars",
+            "New American",
+            "Dance Clubs"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    }
+]
