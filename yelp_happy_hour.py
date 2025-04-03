@@ -1,5 +1,7 @@
 import argparse
+import csv
 import json
+import os
 import re
 import time
 import urllib.parse
@@ -211,18 +213,6 @@ def extract_business_info(businesses, api_key):
     return business_info
 
 
-def save_to_json(data, filename=None):
-    """Save business data to a JSON file."""
-    if filename is None:
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"happy_hour_businesses_{timestamp}.json"
-
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4)
-
-    return filename
-
-
 def extract_emails_from_website(base_url, max_links=10):
     """Scrape the main page and subpages (1 level deep) of a website for emails."""
     visited = set()
@@ -276,6 +266,36 @@ def extract_emails_from_website(base_url, max_links=10):
     return list(emails) if emails else None
 
 
+def save_to_csv(data, filename=None):
+    """Save business data to a CSV file in the 'dat' folder."""
+    if not os.path.exists("dat"):
+        os.makedirs("dat")
+
+    if filename is None:
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"dat/happy_hour_businesses_{timestamp}.csv"
+    else:
+        filename = os.path.join("dat", filename)
+
+    # Get all unique keys for CSV headers
+    fieldnames = set()
+    for item in data:
+        fieldnames.update(item.keys())
+    fieldnames = list(fieldnames)
+
+    # Flatten any list fields (like emails)
+    with open(filename, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        for row in data:
+            flat_row = {
+                k: ", ".join(v) if isinstance(v, list) else v for k, v in row.items()
+            }
+            writer.writerow(flat_row)
+
+    return filename
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Search for happy hour businesses on Yelp"
@@ -308,7 +328,8 @@ def main():
         f"Successfully extracted website URLs for {len(business_info)} of {len(businesses)} businesses"
     )
 
-    filename = save_to_json(business_info, args.output)
+    filename = save_to_csv(business_info, args.output)
+
     print(f"Business information saved to {filename}")
 
 
