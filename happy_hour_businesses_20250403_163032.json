@@ -1,0 +1,286 @@
+[
+    {
+        "name": "Good Clean Fun",
+        "rating": 4.7,
+        "review_count": 192,
+        "address": "868 S Olive St, Los Angeles, CA 90015",
+        "city": "Los Angeles",
+        "zip_code": "90015",
+        "phone": "+12134930098",
+        "yelp_url": "https://www.yelp.com/biz/good-clean-fun-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://gcfwines.com/pages/menu",
+        "emails": [
+            "info@gcfwines.com."
+        ],
+        "coordinates": {
+            "latitude": 34.0438777,
+            "longitude": -118.2578333
+        },
+        "categories": [
+            "Wine Bars",
+            "Beer, Wine & Spirits",
+            "Italian"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "Lobster Guys Rolls & Fries",
+        "rating": 4.6,
+        "review_count": 386,
+        "address": "2217 Artesia Blvd, Redondo Beach, CA 90278",
+        "city": "Redondo Beach",
+        "zip_code": "90278",
+        "phone": "+13109218427",
+        "yelp_url": "https://www.yelp.com/biz/lobster-guys-rolls-and-fries-redondo-beach?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://lobsterguys.com/woodland-hills-woodland-hills-lobster-guys-rolls-and-fries-food-menu",
+        "emails": [
+            "854-6638hernan@lobsterguys.comMonday",
+            "562-203-8888withcai@lobsterguys.com10am"
+        ],
+        "coordinates": {
+            "latitude": 33.873093,
+            "longitude": -118.371017
+        },
+        "categories": [
+            "Beer Bar",
+            "Seafood",
+            "Sports Bars"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "Palmilla Cocina Y Tequila",
+        "rating": 4.4,
+        "review_count": 2279,
+        "address": "39 Pier Ave, Hermosa Beach, CA 90254",
+        "city": "Hermosa Beach",
+        "zip_code": "90254",
+        "phone": "+13103744440",
+        "yelp_url": "https://www.yelp.com/biz/palmilla-cocina-y-tequila-hermosa-beach?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://palmillarestaurant.com/food-to-go/",
+        "emails": [
+            "nbreservations@palmillarestaurant.com",
+            "Reservations@PalmillaHB.com"
+        ],
+        "coordinates": {
+            "latitude": 33.862224,
+            "longitude": -118.40102
+        },
+        "categories": [
+            "Mexican",
+            "Bars",
+            "Seafood"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "AFURI",
+        "rating": 4.3,
+        "review_count": 271,
+        "address": "9300 Culver Blvd, Unit 117, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+14242988292",
+        "yelp_url": "https://www.yelp.com/biz/afuri-culver-city-7?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://www.afuriramen.com/online-ordering",
+        "emails": [
+            "franchise@afuri.us"
+        ],
+        "coordinates": {
+            "latitude": 34.024357329741484,
+            "longitude": -118.39348349946758
+        },
+        "categories": [
+            "Ramen",
+            "Cocktail Bars",
+            "Sushi Bars"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "Arth Bar & Kitchen",
+        "rating": 4.3,
+        "review_count": 365,
+        "address": "9531 Culver Blvd, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+14246034155",
+        "yelp_url": "https://www.yelp.com/biz/arth-bar-and-kitchen-culver-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://www.arthla.com/full-menu",
+        "emails": [
+            "info@arthla.com"
+        ],
+        "coordinates": {
+            "latitude": 34.023220025762654,
+            "longitude": -118.3953562079707
+        },
+        "categories": [
+            "Asian Fusion",
+            "Indian",
+            "Cocktail Bars"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "The Misfit Restaurant + Bar",
+        "rating": 4.2,
+        "review_count": 4653,
+        "address": "225 Santa Monica Blvd, Santa Monica, CA 90401",
+        "city": "Santa Monica",
+        "zip_code": "90401",
+        "phone": "+13106569800",
+        "yelp_url": "https://www.yelp.com/biz/the-misfit-restaurant-bar-santa-monica?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://themisfitbar.com/#menus",
+        "emails": [
+            "656-9800misfitgroup@lgohospitality.com"
+        ],
+        "coordinates": {
+            "latitude": 34.015401,
+            "longitude": -118.496658
+        },
+        "categories": [
+            "Bars",
+            "New American",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "33 Taps -  Culver City",
+        "rating": 4.2,
+        "review_count": 212,
+        "address": "9739 Culver Blvd, Culver City, CA 90232",
+        "city": "Culver City",
+        "zip_code": "90232",
+        "phone": "+13108389739",
+        "yelp_url": "https://www.yelp.com/biz/33-taps-culver-city-culver-city-6?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "http://www.eatdrink33.com/menu",
+        "emails": null,
+        "coordinates": {
+            "latitude": 34.021909,
+            "longitude": -118.39656
+        },
+        "categories": [
+            "Sports Bars",
+            "Burgers",
+            "Vegan"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "Prank",
+        "rating": 4.1,
+        "review_count": 1068,
+        "address": "1100 S Hope St, Los Angeles, CA 90015",
+        "city": "Los Angeles",
+        "zip_code": "90015",
+        "phone": "+13107309757",
+        "yelp_url": "https://www.yelp.com/biz/prank-los-angeles?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "http://prankbar.com/menu/",
+        "emails": null,
+        "coordinates": {
+            "latitude": 34.042005,
+            "longitude": -118.263016
+        },
+        "categories": [
+            "Cocktail Bars",
+            "American",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "Ashland Hill",
+        "rating": 4.0,
+        "review_count": 820,
+        "address": "2807 Main St, Santa Monica, CA 90405",
+        "city": "Santa Monica",
+        "zip_code": "90405",
+        "phone": "+13103923300",
+        "yelp_url": "https://www.yelp.com/biz/ashland-hill-santa-monica-3?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "http://ashlandhill.com/#eat",
+        "emails": [
+            "Becerrilgm@ashlandhill.com424.268.4002Blaine",
+            "gm@ashlandhill.com",
+            "Eventsevents@ashlandhill.com302.547.5143"
+        ],
+        "coordinates": {
+            "latitude": 34.0002059936523,
+            "longitude": -118.481384277344
+        },
+        "categories": [
+            "Beer Gardens",
+            "New American",
+            "Breakfast & Brunch"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "Melody Bar and Grill",
+        "rating": 3.9,
+        "review_count": 997,
+        "address": "9132 S Sepulveda Blvd, Los Angeles, CA 90045",
+        "city": "Los Angeles",
+        "zip_code": "90045",
+        "phone": "+13106701994",
+        "yelp_url": "https://www.yelp.com/biz/melody-bar-and-grill-los-angeles-2?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://www.melodylax.com/menu/menu/",
+        "emails": null,
+        "coordinates": {
+            "latitude": 33.9537242,
+            "longitude": -118.3959079
+        },
+        "categories": [
+            "Bars",
+            "New American",
+            "Dance Clubs"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    },
+    {
+        "name": "Holy Cow BBQ - Culver City",
+        "rating": 3.9,
+        "review_count": 1267,
+        "address": "4130 Sepulveda Blvd, Ste B, Culver City, CA 90230",
+        "city": "Culver City",
+        "zip_code": "90230",
+        "phone": "+14242988220",
+        "yelp_url": "https://www.yelp.com/biz/holy-cow-bbq-culver-city-culver-city?adjust_creative=kHkLhH790XbykkItR8AW0g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=kHkLhH790XbykkItR8AW0g",
+        "website": "https://holycowbbq.com/togo-menu",
+        "emails": [
+            "States310-883-6269info@holycowbbq.com"
+        ],
+        "coordinates": {
+            "latitude": 34.006668705212206,
+            "longitude": -118.4124587
+        },
+        "categories": [
+            "Barbeque",
+            "Caterers",
+            "Cocktail Bars"
+        ],
+        "price": "$$",
+        "dogs_allowed": "Unknown",
+        "good_for_kids": "Unknown"
+    }
+]
