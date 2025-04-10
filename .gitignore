@@ -51,3 +51,6 @@ coverage.xml
 # dotenv files
 *.env
 .env.*
+
+# dat folder
+dat/
