@@ -29,7 +29,7 @@ project_root/
    ```
    pip install -r requirements.txt
    ```
-3. Get a Yelp API key from the [Yelp Fusion API](https://www.yelp.com/developers/documentation/v3/authentication)
+3. Get a Yelp API key from the [Yelp Fusion API](https://docs.developer.yelp.com/docs/fusion-intro)
 
 ## Usage
 
