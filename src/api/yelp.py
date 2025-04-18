@@ -1,3 +1,4 @@
+import math
 import time
 
 import requests
@@ -40,7 +41,7 @@ def search_businesses(
         request_limit = min(limit, 50)
 
     # Focus on quality bars and pubs
-    bar_categories = "bars,pubs,beergardens,cocktailbars,sportsbars,wine_bars,breweries"
+    bar_categories = "bars,pubs,beergardens,cocktailbars,sportsbars,wine_bars,breweries,lounges,divebars,irish_pubs,gastropubs,whiskeybars,tikibars,hookah_bars,tapas,restaurants"
 
     # Keep making requests until we hit max_results or run out of businesses
     while len(all_businesses) < max_api_results and offset < max_api_results:
@@ -53,9 +54,7 @@ def search_businesses(
             "limit": request_limit,
             "offset": offset,
             "sort_by": "rating",
-            "price": "1,2,3",
-            "attributes": "dogs_allowed,good_for_kids",
-            "open_now": True,
+            "price": "1,2,3,4",
         }
 
         try:
@@ -73,11 +72,11 @@ def search_businesses(
                     # No more results to fetch
                     break
 
-                # Filter to only include businesses with at least 3.5 stars and some reviews
+                # Filter to only include businesses with at least 3.0 stars and some reviews
                 filtered_businesses = [
                     b
                     for b in businesses
-                    if b.get("rating", 0) >= 3.5 and b.get("review_count", 0) >= 10
+                    if b.get("rating", 0) >= 3.0 and b.get("review_count", 0) >= 5
                 ]
 
                 print(
@@ -134,3 +133,85 @@ def get_business_details(api_key, business_id):
     except Exception as e:
         print(f"Exception getting business details: {e}")
         return {}
+
+
+def get_location_coordinates(location_name):
+    """
+    Get the coordinates and appropriate radius for a specific location using Nominatim API.
+    Returns a dictionary with 'latitude', 'longitude', and 'radius' if found, otherwise None.
+    The radius is calculated based on the location's bounding box.
+    """
+    # Format the search query (add USA for better specificity)
+    query = f"{location_name}, USA"
+
+    url = f"https://nominatim.openstreetmap.org/search?q={query}&format=json&limit=1&addressdetails=1&extratags=1&bounded=1"
+    headers = {"User-Agent": "HappyHourFinder/1.0"}
+
+    print(f"Geocoding location: {location_name}...")
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        time.sleep(1)  # Respect rate limit (1 request per second)
+
+        if response.status_code == 200:
+            data = response.json()
+            if data:
+                # Get the first result
+                result = data[0]
+
+                # Default radius in miles (will be overridden by user input in main.py)
+                radius = 5
+
+                if "boundingbox" in result:
+                    # Bounding box is [min_lat, max_lat, min_lon, max_lon]
+                    bbox = result["boundingbox"]
+                    try:
+                        min_lat, max_lat, min_lon, max_lon = map(float, bbox)
+
+                        # Calculate distance from center to corner of bounding box (rough approximation)
+                        center_lat = float(result["lat"])
+                        center_lon = float(result["lon"])
+
+                        # Haversine formula for approximate distance in miles
+                        R = 3958.8  # Earth radius in miles
+
+                        # Calculate distance from center to northeast corner of bounding box
+                        dlat = math.radians(max_lat - center_lat)
+                        dlon = math.radians(max_lon - center_lon)
+
+                        a = (
+                            math.sin(dlat / 2) ** 2
+                            + math.cos(math.radians(center_lat))
+                            * math.cos(math.radians(max_lat))
+                            * math.sin(dlon / 2) ** 2
+                        )
+                        c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+                        distance = R * c  # Distance in miles
+
+                        # Use half the diagonal as a reasonable radius (max 24 miles - Yelp's limit)
+                        radius = min(distance / 2, 24)
+                    except Exception as e:
+                        print(f"Error calculating radius from bounding box: {e}")
+                        # Fall back to default radius
+
+                print(
+                    f"Found coordinates for {location_name}: Lat {result['lat']}, Lon {result['lon']}"
+                )
+                print(f"Calculated appropriate radius: {radius} miles")
+
+                return {
+                    "latitude": float(result["lat"]),
+                    "longitude": float(result["lon"]),
+                    "radius": radius,
+                }
+            else:
+                print(f"Could not find coordinates for {location_name}")
+                return None
+        else:
+            print(
+                f"Nominatim API error for {location_name}: Status {response.status_code}"
+            )
+            return None
+
+    except Exception as e:
+        print(f"Error during geocoding for {location_name}: {str(e)}")
+        return None

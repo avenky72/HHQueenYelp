@@ -15,7 +15,7 @@ project_root/
 │   │   └── website_scraper.py  # Website URL scraping
 │   ├── utils/                  # Utility functions
 │   │   ├── session.py          # HTTP session configuration
-│   │   └── csv_export.py       # CSV export functions
+│   │   └── csv_export.py       # Excel/CSV export functions
 │   └── business/               # Business data processing
 │       └── processor.py        # Business info extraction
 ├── dat/                        # Output folder (created by the script)
@@ -33,43 +33,99 @@ project_root/
 
 ## Usage
 
-Run the script with your Yelp API key and location parameters:
+### Basic Usage
+
+Run the script with your Yelp API key and a city name:
 
 ```bash
-python main.py --api-key eGU2qoxtM-LNjwtaQEdBE4NOgqRz1Se5s2iCZWovw-RCh8gA8bHYlLc4Iy1T2QsX7TKe1xALV3gcVDclIgEhf2Kb785gcoYUpe_8_OkwO4I2ieGvXomtekp3EnHcZ3Yx --latitude 37.7749 --longitude -122.4194
+python main.py --api-key YOUR_YELP_API_KEY --city-name "San Francisco:CA"
+```
+
+### Search Multiple Locations
+
+You can search for multiple specific locations (neighborhoods, districts, etc.) within a city:
+
+```bash
+python main.py --api-key YOUR_YELP_API_KEY --city-name "Los Angeles:CA" --locations "Santa Monica,Hollywood,Downtown LA,Beverly Hills,Venice"
 ```
 
 ### Command-line Arguments
 
 - `--api-key`: Yelp Fusion API key (required)
-- `--latitude`: Latitude of the center point (required)
-- `--longitude`: Longitude of the center point (required)
-- `--radius`: Search radius in miles (default: 20)
+- `--city-name`: Name of the city to search, with optional state code (e.g., "Los Angeles:CA") (required)
+- `--locations`: Comma-separated list of sub-locations within the city (optional)
+- `--radius`: Fallback search radius in miles if auto-calculation fails (default: 5)
 - `--term`: Search term (default: "happy hour")
-- `--output`: Output filename (default: generated with timestamp)
 - `--batch-size`: Number of results per API call (default: 40, max: 50)
-- `--max-results`: Maximum total businesses to fetch (default: 240)
+- `--max-results`: Maximum total businesses to fetch per location (default: 240)
+
+## Features
+
+### Smart Search Radius
+
+The tool automatically calculates an appropriate search radius for each location based on its geographical size:
+
+- Small neighborhoods like Venice or Downtown LA get smaller radii (around 3 miles)
+- Medium-sized areas like Beverly Hills and Santa Monica get moderate radii (around 4 miles)
+- Larger areas like full cities get larger radii (8+ miles)
+
+### State Integration
+
+Specify the state once with the main city name using the format `"City Name:State"` (e.g., `"Los Angeles:CA"`), and it will be applied to all sub-locations and included in the output data.
+
+### Dynamic Email Column Creation
+
+The tool will automatically create the appropriate number of email columns based on the maximum number of email addresses found for any business:
+
+- If no business has more than one email, only one email column will appear
+- If some businesses have multiple emails, the tool will create additional columns (email_1, email_2, etc.)
+
+### Multi-Location Searches
+
+When searching multiple locations:
+
+- Each location gets its own sheet in the Excel file
+- The Excel file is named after the main city
+
+### City-Only Searches
+
+If no specific sub-locations are provided, the tool will search the entire city:
+
+```bash
+python main.py --api-key YOUR_YELP_API_KEY --city-name "Chicago:IL"
+```
 
 ## Output
 
-The script creates a CSV file in the `dat/` directory with the following information for each business:
+The script creates an Excel file in the `dat/` directory with the following information for each business:
 
 - Name
 - Website
-- Emails
-- Price
-- Zip code
+- Email columns (dynamically created based on the data)
 - City
-- Rating
-- Address
-- Review count
-- Dogs allowed
+- State
+- Zip code
 - Phone
-- Categories
-- Good for kids
+- Happy Hour tag
 
-## Example
+When multiple locations are searched, each location will have its own sheet in the Excel file.
+
+## Examples
+
+### Search entire city of Chicago:
 
 ```bash
-python main.py --api-key YOUR_YELP_API_KEY --latitude 34.0522 --longitude -118.2437 --radius 15 --term "sports bar"
+python main.py --api-key YOUR_YELP_API_KEY --city-name "Chicago:IL"
+```
+
+### Search specific neighborhoods in Los Angeles:
+
+```bash
+python main.py --api-key YOUR_YELP_API_KEY --city-name "Los Angeles:CA" --locations "Santa Monica,Hollywood,Downtown LA,Beverly Hills,Venice"
+```
+
+### Search for sports bars in San Francisco:
+
+```bash
+python main.py --api-key YOUR_YELP_API_KEY --city-name "San Francisco:CA" --term "sports bar"
 ```

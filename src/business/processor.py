@@ -20,6 +20,7 @@ def extract_business_info(businesses, api_key):
         location_info = business.get("location", {})
         location = location_info.get("address1", "")
         city = location_info.get("city", "")
+        state = location_info.get("state", "")
         zip_code = location_info.get("zip_code", "")
         coordinates = business.get("coordinates", {})
         categories = [c.get("title") for c in business.get("categories", [])]
@@ -89,18 +90,12 @@ def extract_business_info(businesses, api_key):
         info = {
             "name": business_name,
             "emails": emails,
-            "address": ", ".join(location_info.get("display_address", [])),
             "city": city,
+            "state": state,
             "zip_code": zip_code,
             "website": website_url,
-            "good_for_kids": good_for_kids,
-            "dogs_allowed": dogs_allowed,
-            "price": price,
-            "yelp_url": yelp_url,
-            "rating": business.get("rating"),
-            "categories": categories,
-            "review_count": business.get("review_count"),
             "phone": business.get("phone") or details.get("phone", ""),
+            # Keep errors for debugging but they won't be in the final output
             "website_error": website_error,
             "email_error": email_error,
         }
