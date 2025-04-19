@@ -1,34 +1,57 @@
-# Happy Hour Queen Yelp Finder
+# Happy Hour Business Finder
 
-## What is this?
+This tool searches for businesses related to "happy hour" using the Yelp API, extracts their websites, and scrapes email addresses from those websites.
 
-This tool helps you find bars and restaurants with happy hours in any city or neighborhood. It searches Yelp for businesses, collects their information, and creates an organized Excel spreadsheet with all the results.
+## Project Structure
 
-## Before You Start
+```
+project_root/
+├── main.py                     # Main entry point script
+├── src/
+│   ├── api/                    # API-related functions
+│   │   └── yelp.py             # Yelp API interaction
+│   ├── scraping/               # Web scraping functionality
+│   │   ├── email_scraper.py    # Email extraction
+│   │   └── website_scraper.py  # Website URL scraping
+│   ├── utils/                  # Utility functions
+│   │   ├── session.py          # HTTP session configuration
+│   │   └── csv_export.py       # Excel/CSV export functions
+│   └── business/               # Business data processing
+│       └── processor.py        # Business info extraction
+├── dat/                        # Output folder (created by the script)
+└── requirements.txt            # Project dependencies
+```
 
-You'll need:
+## Installation
 
-1. Python installed on your computer (version 3.7 or newer)
-2. A Yelp API key (explained below)
-3. Basic familiarity with running commands in a terminal/command prompt
+### Prerequisites
 
-### Getting a Yelp API Key
+1. **Python**: Install Python 3.8 or later
 
-1. Go to [https://www.yelp.com/developers](https://www.yelp.com/developers)
-2. Sign up for a free account or log in
-3. Create a new app to get your API key
-4. Save this key somewhere safe - you'll need it to run the tool
+   - Download from [python.org](https://www.python.org/downloads/)
+   - During installation, ensure you check "Add Python to PATH"
+   - Verify installation by opening a command prompt/terminal and typing: `python --version`
 
-## Setting Up (First Time Only)
+2. **Git**: Install Git for your operating system
+   - Download from [git-scm.com](https://git-scm.com/downloads)
+   - Verify installation by opening a command prompt/terminal and typing: `git --version`
 
-1. Download all the files from this project
-2. Open a terminal/command prompt
-3. Navigate to the folder where you saved the files
-4. Install required packages by typing:
+### Project Setup
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/yourname/HHQueenYelp.git
+   cd HHQueenYelp
    ```
+
+2. Install the required packages:
+
+   ```bash
    pip install -r requirements.txt
    ```
-5. Get a Yelp API key from the [Yelp Fusion API](https://www.yelp.com/developers/documentation/v3/authentication)
+
+3. Get a Yelp API key from the [Yelp Fusion API](https://www.yelp.com/developers/documentation/v3/authentication)
 
 ## Usage
 
@@ -36,62 +59,95 @@ You'll need:
 
 Run the script with your Yelp API key and a city name:
 
-```
-python main.py --api-key YOUR_API_KEY --city-name "Chicago:IL"
-```
-
-### Searching Multiple Neighborhoods:
-
-To search specific neighborhoods in Los Angeles:
-
-```
-python main.py --api-key YOUR_API_KEY --city-name "Los Angeles:CA" --locations "Downtown,Hollywood,Santa Monica"
+```bash
+python main.py --api-key YOUR_YELP_API_KEY --city-name "San Francisco:CA"
 ```
 
-### Looking for Something Besides Happy Hours:
+### Search Multiple Locations
 
-To search for sports bars instead:
+You can search for multiple specific locations (neighborhoods, districts, etc.) within a city:
 
+```bash
+python main.py --api-key YOUR_YELP_API_KEY --city-name "Los Angeles:CA" --locations "Santa Monica,Hollywood,Downtown LA,Beverly Hills,Venice"
 ```
-python main.py --api-key YOUR_API_KEY --city-name "Miami:FL" --term "sports bar"
+
+### Command-line Arguments
+
+- `--api-key`: Yelp Fusion API key (required)
+- `--city-name`: Name of the city to search, with optional state code (e.g., "Los Angeles:CA") (required)
+- `--locations`: Comma-separated list of sub-locations within the city (optional)
+- `--radius`: Fallback search radius in miles if auto-calculation fails (default: 5)
+- `--term`: Search term (default: "happy hour")
+- `--batch-size`: Number of results per API call (default: 40, max: 50)
+- `--max-results`: Maximum total businesses to fetch per location (default: 240)
+
+## Features
+
+### Smart Search Radius
+
+The tool automatically calculates an appropriate search radius for each location based on its geographical size:
+
+- Small neighborhoods like Venice or Downtown LA get smaller radii (around 3 miles)
+- Medium-sized areas like Beverly Hills and Santa Monica get moderate radii (around 4 miles)
+- Larger areas like full cities get larger radii (8+ miles)
+
+### State Integration
+
+Specify the state once with the main city name using the format `"City Name:State"` (e.g., `"Los Angeles:CA"`), and it will be applied to all sub-locations and included in the output data.
+
+### Dynamic Email Column Creation
+
+The tool will automatically create the appropriate number of email columns based on the maximum number of email addresses found for any business:
+
+- If no business has more than one email, only one email column will appear
+- If some businesses have multiple emails, the tool will create additional columns (email_1, email_2, etc.)
+
+### Multi-Location Searches
+
+When searching multiple locations:
+
+- Each location gets its own sheet in the Excel file
+- The Excel file is named after the main city
+
+### City-Only Searches
+
+If no specific sub-locations are provided, the tool will search the entire city:
+
+```bash
+python main.py --api-key YOUR_YELP_API_KEY --city-name "Chicago:IL"
 ```
 
-## Understanding the Results
+## Output
 
-After running the command:
+The script creates an Excel file in the `dat/` directory with the following information for each business:
 
-1. The tool will start searching Yelp
-2. You'll see progress updates in the terminal
-3. When finished, it creates an Excel file in a folder called "dat"
-4. The filename will be the city name plus the current date/time
-5. Open this Excel file to see all the businesses found
+- Name
+- Website
+- Email columns (dynamically created based on the data)
+- City
+- State
+- Zip code
+- Phone
+- Happy Hour tag
 
-Each business listing includes:
+When multiple locations are searched, each location will have its own sheet in the Excel file.
 
-- Name and address
-- Phone number
-- Rating and number of reviews
-- Price level
-- Categories
-- Website (if available)
-- And more...
+## Examples
 
-If you searched multiple neighborhoods, each will have its own sheet in the Excel file.
+### Search entire city of Chicago:
 
-## Helpful Tips
+```bash
+python main.py --api-key YOUR_YELP_API_KEY --city-name "Chicago:IL"
+```
 
-- **Not getting results?** Try a different search term or increase the search radius
-- **Want to search a specific area?** Use the `--locations` option with neighborhood names
-- **Want to change how far it searches?** Use `--radius` followed by a number (in miles)
-- **Need more results?** The tool is limited to 240 results per location (Yelp's limit)
+### Search specific neighborhoods in Los Angeles:
 
-## Common Questions
+```bash
+python main.py --api-key YOUR_YELP_API_KEY --city-name "Los Angeles:CA" --locations "Santa Monica,Hollywood,Downtown LA,Beverly Hills,Venice"
+```
 
-**Q: How long does it take to run?**  
-A: It depends on how many locations you search, but typically a few minutes per location.
+### Search for sports bars in San Francisco:
 
-**Q: Why does it pause sometimes?**  
-A: The tool waits between searches to avoid hitting Yelp's rate limits.
-
-**Q: Can I search outside the US?**  
-A: Yes, but you should include the country name in your search, like "London, UK".
+```bash
+python main.py --api-key YOUR_YELP_API_KEY --city-name "San Francisco:CA" --term "sports bar"
+```
