@@ -26,18 +26,15 @@ You'll need:
 3. Navigate to the folder where you saved the files
 4. Install required packages by typing:
    ```
-   pip install requests pandas openpyxl
+   pip install -r requirements.txt
    ```
+5. Get a Yelp API key from the [Yelp Fusion API](https://www.yelp.com/developers/documentation/v3/authentication)
 
-## How to Use
+## Usage
 
-### Basic Example:
+### Basic Usage
 
-To search for happy hours in Chicago:
-
-1. Open terminal/command prompt
-2. Navigate to the project folder
-3. Type this command (replace YOUR_API_KEY with your actual Yelp API key):
+Run the script with your Yelp API key and a city name:
 
 ```
 python main.py --api-key YOUR_API_KEY --city-name "Chicago:IL"
