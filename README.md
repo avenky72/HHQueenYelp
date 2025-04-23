@@ -60,7 +60,7 @@ project_root/
 Run the script with your Yelp API key and a city name:
 
 ```bash
-python main.py --api-key YOUR_YELP_API_KEY --city-name "San Francisco:CA"
+python main.py --api-key YOUR_YELP_API_KEY --city-name "San Francisco,CA"
 ```
 
 ### Search Multiple Locations
@@ -68,13 +68,13 @@ python main.py --api-key YOUR_YELP_API_KEY --city-name "San Francisco:CA"
 You can search for multiple specific locations (neighborhoods, districts, etc.) within a city:
 
 ```bash
-python main.py --api-key YOUR_YELP_API_KEY --city-name "Los Angeles:CA" --locations "Santa Monica,Hollywood,Downtown LA,Beverly Hills,Venice"
+python main.py --api-key YOUR_YELP_API_KEY --city-name "Los Angeles,CA" --locations "Santa Monica,Hollywood,Downtown LA,Beverly Hills,Venice"
 ```
 
 ### Command-line Arguments
 
 - `--api-key`: Yelp Fusion API key (required)
-- `--city-name`: Name of the city to search, with optional state code (e.g., "Los Angeles:CA") (required)
+- `--city-name`: Name of the city to search, with optional state code (e.g., "Los Angeles,CA") (required)
 - `--locations`: Comma-separated list of sub-locations within the city (optional)
 - `--radius`: Fallback search radius in miles if auto-calculation fails (default: 5)
 - `--term`: Search term (default: "happy hour")
@@ -93,7 +93,7 @@ The tool automatically calculates an appropriate search radius for each location
 
 ### State Integration
 
-Specify the state once with the main city name using the format `"City Name:State"` (e.g., `"Los Angeles:CA"`), and it will be applied to all sub-locations and included in the output data.
+Specify the state once with the main city name using the format `"City Name,State"` (e.g., `"Los Angeles,CA"`), and it will be applied to all sub-locations and included in the output data.
 
 ### Dynamic Email Column Creation
 
@@ -114,7 +114,7 @@ When searching multiple locations:
 If no specific sub-locations are provided, the tool will search the entire city:
 
 ```bash
-python main.py --api-key YOUR_YELP_API_KEY --city-name "Chicago:IL"
+python main.py --api-key YOUR_YELP_API_KEY --city-name "Chicago,IL"
 ```
 
 ## Output
@@ -137,17 +137,17 @@ When multiple locations are searched, each location will have its own sheet in t
 ### Search entire city of Chicago:
 
 ```bash
-python main.py --api-key YOUR_YELP_API_KEY --city-name "Chicago:IL"
+python main.py --api-key YOUR_YELP_API_KEY --city-name "Chicago,IL"
 ```
 
 ### Search specific neighborhoods in Los Angeles:
 
 ```bash
-python main.py --api-key YOUR_YELP_API_KEY --city-name "Los Angeles:CA" --locations "Santa Monica,Hollywood,Downtown LA,Beverly Hills,Venice"
+python main.py --api-key YOUR_YELP_API_KEY --city-name "Los Angeles,CA" --locations "Santa Monica,Hollywood,Downtown LA,Beverly Hills,Venice"
 ```
 
 ### Search for sports bars in San Francisco:
 
 ```bash
-python main.py --api-key YOUR_YELP_API_KEY --city-name "San Francisco:CA" --term "sports bar"
+python main.py --api-key YOUR_YELP_API_KEY --city-name "San Francisco,CA" --term "sports bar"
 ```

@@ -1,7 +1,10 @@
 import argparse
 import os
+import sys
 import time
 from datetime import datetime
+
+import requests
 
 from src.api.yelp import get_location_coordinates, search_businesses
 from src.business.processor import extract_business_info
@@ -19,7 +22,7 @@ def main():
     parser.add_argument(
         "--city-name",
         required=True,
-        help="Name for the output Excel file with optional state (e.g., 'Los Angeles:CA')",
+        help="Name for the output Excel file with optional state (e.g., 'Los Angeles,CA')",
     )
     parser.add_argument(
         "--locations",
@@ -49,9 +52,20 @@ def main():
 
     args = parser.parse_args()
 
+    # Validate API key format first
+    try:
+        # Check if API key contains only ASCII characters
+        args.api_key.encode("ascii")
+    except UnicodeEncodeError:
+        print(
+            "ERROR: API key contains invalid characters. Yelp API keys should only contain ASCII characters."
+        )
+        print("Please ensure you're using a valid Yelp API key.")
+        sys.exit(1)
+
     # Parse city name and state
-    if ":" in args.city_name:
-        city_name, state = args.city_name.split(":", 1)
+    if "," in args.city_name:
+        city_name, state = args.city_name.split(",", 1)
         city_name = city_name.strip()
         state = state.strip()
     else:
@@ -68,6 +82,34 @@ def main():
     else:
         # No sub-locations provided, just search the main city
         location_data = [{"name": city_name, "state": state}]
+
+    # Validate API key before proceeding
+    print("Validating API key...")
+    try:
+        # Make a simple request to verify the API key is valid
+        headers = {"Authorization": f"Bearer {args.api_key}"}
+        response = requests.get(
+            "https://api.yelp.com/v3/businesses/search",
+            headers=headers,
+            params={"limit": 1, "location": "San Francisco"},
+        )
+        if response.status_code == 401:
+            print(
+                "ERROR: Invalid or expired API key. Please check your Yelp API key and try again."
+            )
+            sys.exit(1)  # Exit with error code
+        elif response.status_code != 200:
+            print(
+                f"Warning: API returned status code {response.status_code} during validation."
+            )
+            print("Continuing with the search, but you may encounter issues.")
+    except UnicodeEncodeError as e:
+        print(f"ERROR: Character encoding issue with API key: {str(e)}")
+        print("Yelp API keys should only contain standard ASCII characters.")
+        sys.exit(1)
+    except Exception as e:
+        print(f"Warning: Could not validate API key: {str(e)}")
+        print("Continuing with the search, but you may encounter issues.")
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     total_businesses_processed_all_locations = 0

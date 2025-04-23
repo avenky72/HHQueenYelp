@@ -1,4 +1,5 @@
 import math
+import sys
 import time
 
 import requests
@@ -92,6 +93,11 @@ def search_businesses(
                     print(f"Reached maximum available results ({offset}/{total})")
                     break
 
+            elif response.status_code == 401:
+                print(
+                    "ERROR: Invalid or expired API key. Please check your Yelp API key and try again."
+                )
+                sys.exit(1)  # Exit with error code
             elif response.status_code == 429:
                 # Too many requests - wait longer before retry
                 print("Rate limit hit, waiting 3 seconds...")
@@ -102,6 +108,10 @@ def search_businesses(
                 print(response.text)
                 break
 
+        except UnicodeEncodeError as e:
+            print(f"ERROR: Character encoding issue with API key: {str(e)}")
+            print("Yelp API keys should only contain standard ASCII characters.")
+            sys.exit(1)
         except Exception as e:
             print(f"Exception during API request: {e}")
             break
@@ -124,12 +134,21 @@ def get_business_details(api_key, business_id):
             if "website" in details:
                 print(f"  API provided website: {details['website']}")
             return details
+        elif response.status_code == 401:
+            print(
+                "ERROR: Invalid or expired API key. Please check your Yelp API key and try again."
+            )
+            sys.exit(1)  # Exit with error code
         else:
             print(
                 f"Error getting details for business {business_id}: {response.status_code}"
             )
             print(response.text)
             return {}
+    except UnicodeEncodeError as e:
+        print(f"ERROR: Character encoding issue with API key: {str(e)}")
+        print("Yelp API keys should only contain standard ASCII characters.")
+        sys.exit(1)
     except Exception as e:
         print(f"Exception getting business details: {e}")
         return {}
